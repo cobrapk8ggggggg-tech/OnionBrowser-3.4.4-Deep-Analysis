@@ -1,20 +1,6160 @@
 {
  "classes": [
   {
-   "name": "PodsDummy_OrbotKit",
-   "super": "BIND:256",
-   "methods": [],
+   "name": "_TtC12OnionBrowser23BookmarksViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "tableView",
+     "@16@0:8"
+    ],
+    [
+     "setTableView:",
+     "v24@0:8@16"
+    ],
+    [
+     "toolbar",
+     "@16@0:8"
+    ],
+    [
+     "setToolbar:",
+     "v24@0:8@16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "numberOfSectionsInTableView:",
+     "q24@0:8@16"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:heightForRowAtIndexPath:",
+     "d32@0:8@16@24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:canEditRowAtIndexPath:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "tableView:canMoveRowAtIndexPath:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:",
+     "@40@0:8@16@24@32"
+    ],
+    [
+     "tableView:commitEditingStyle:forRowAtIndexPath:",
+     "v40@0:8@16q24@32"
+    ],
+    [
+     "tableView:moveRowAtIndexPath:toIndexPath:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "tableView:didSelectRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "updateSearchResultsForSearchController:",
+     "v24@0:8@16"
+    ],
+    [
+     "documentPicker:didPickDocumentsAtURLs:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "dismiss_",
+     "v16@0:8"
+    ],
+    [
+     "exportBookmarksWithSender:",
+     "v24@0:8@16"
+    ],
+    [
+     "importBookmarks",
+     "v16@0:8"
+    ],
+    [
+     "add",
+     "v16@0:8"
+    ],
+    [
+     "addFolder",
+     "v16@0:8"
+    ],
+    [
+     "edit",
+     "v16@0:8"
+    ],
+    [
+     "showSyncScene",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
    "ivars": [],
-   "props": [],
-   "is_meta": false
+   "props": [
+    [
+     "tableView",
+     "T@\"UITableView\",N,W,VtableView"
+    ],
+    [
+     "toolbar",
+     "T@\"UIToolbar\",N,W,Vtoolbar"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "BookmarksViewController",
+   "super_resolved": "UIViewController"
   },
   {
-   "name": "_TtC8OrbotKit8OrbotKit",
-   "super": "BIND:258",
+   "name": "_TtC12OnionBrowser8Settings",
+   "super": "_TtC17IPtProxyUI_Shared8Settings",
    "methods": [],
    "ivars": [],
    "props": [],
-   "is_meta": false
+   "is_meta": false,
+   "short_name": "Settings",
+   "super_resolved": "_TtC17IPtProxyUI_Shared8Settings"
+  },
+  {
+   "name": "_TtC12OnionBrowser3Tab",
+   "super": "UIView",
+   "methods": [
+    [
+     "refresherTriggered",
+     "v16@0:8"
+    ],
+    [
+     "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+     "@48@0:8@16@24@32@40"
+    ],
+    [
+     "webViewDidClose:",
+     "v24@0:8@16"
+    ],
+    [
+     "webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:",
+     "v48@0:8@16@24@32@?40"
+    ],
+    [
+     "webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:",
+     "v48@0:8@16@24@32@?40"
+    ],
+    [
+     "webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:",
+     "v56@0:8@16@24@32@40@?48"
+    ],
+    [
+     "webView:contextMenuConfigurationForElement:completionHandler:",
+     "v40@0:8@16@24@?32"
+    ],
+    [
+     "webView:requestDeviceOrientationAndMotionPermissionForOrigin:initiatedByFrame:decisionHandler:",
+     "v48@0:8@16@24@32@?40"
+    ],
+    [
+     "webView:requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:",
+     "v56@0:8@16@24@32q40@?48"
+    ],
+    [
+     "activityViewControllerPlaceholderItem:",
+     "@24@0:8@16"
+    ],
+    [
+     "activityViewController:itemForActivityType:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "activityViewController:subjectForActivityType:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "activityViewController:dataTypeIdentifierForActivityType:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "activityViewController:thumbnailImageForActivityType:suggestedSize:",
+     "@48@0:8@16@24{CGSize=dd}32"
+    ],
+    [
+     "activityViewControllerLinkMetadata:",
+     "@24@0:8@16"
+    ],
+    [
+     "download:decideDestinationUsingResponse:suggestedFilename:completionHandler:",
+     "v48@0:8@16@24@32@?40"
+    ],
+    [
+     "download:didReceiveAuthenticationChallenge:completionHandler:",
+     "v40@0:8@16@24@?32"
+    ],
+    [
+     "download:didFailWithError:resumeData:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "downloadDidFinish:",
+     "v24@0:8@16"
+    ],
+    [
+     "previewController:previewItemAtIndex:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "numberOfPreviewItemsInPreviewController:",
+     "q24@0:8@16"
+    ],
+    [
+     "userContentController:didReceiveScriptMessage:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "webView:decidePolicyForNavigationAction:preferences:decisionHandler:",
+     "v48@0:8@16@24@32@?40"
+    ],
+    [
+     "webView:decidePolicyForNavigationResponse:decisionHandler:",
+     "v40@0:8@16@24@?32"
+    ],
+    [
+     "webView:didCommitNavigation:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "webView:navigationAction:didBecomeDownload:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "webView:navigationResponse:didBecomeDownload:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "webView:didFinishNavigation:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "webView:didFailNavigation:withError:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "webView:didFailProvisionalNavigation:withError:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "webView:didReceiveAuthenticationChallenge:completionHandler:",
+     "v40@0:8@16@24@?32"
+    ],
+    [
+     "webView:authenticationChallenge:shouldAllowDeprecatedTLS:",
+     "v40@0:8@16@24@?32"
+    ],
+    [
+     "url",
+     "@16@0:8"
+    ],
+    [
+     "setUrl:",
+     "v24@0:8@16"
+    ],
+    [
+     "index",
+     "q16@0:8"
+    ],
+    [
+     "isUserInteractionEnabled",
+     "B16@0:8"
+    ],
+    [
+     "setUserInteractionEnabled:",
+     "v20@0:8B16"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "observeValueForKeyPath:ofObject:change:context:",
+     "v48@0:8@16@24@32^v40"
+    ],
+    [
+     "refresh",
+     "v16@0:8"
+    ],
+    [
+     "load:",
+     "v24@0:8@16"
+    ],
+    [
+     "searchFor:",
+     "v24@0:8@16"
+    ],
+    [
+     "goBack",
+     "v16@0:8"
+    ],
+    [
+     "goForward",
+     "v16@0:8"
+    ],
+    [
+     "hostSettingsChanged:",
+     "v24@0:8@16"
+    ],
+    [
+     "dealloc",
+     "v16@0:8"
+    ],
+    [
+     "initWithFrame:",
+     "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "url",
+     "T@\"NSURL\",N,C"
+    ],
+    [
+     "index",
+     "Tq,N,R"
+    ],
+    [
+     "userInteractionEnabled",
+     "TB,N"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "Tab",
+   "super_resolved": "UIView"
+  },
+  {
+   "name": "_TtC12OnionBrowser24LiveSearchViewController",
+   "super": "UITableViewController",
+   "methods": [
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:titleForHeaderInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:willDisplayHeaderView:forSection:",
+     "v40@0:8@16@24q32"
+    ],
+    [
+     "tableView:didSelectRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "hide",
+     "v16@0:8"
+    ],
+    [
+     "initWithStyle:",
+     "@24@0:8q16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "LiveSearchViewController",
+   "super_resolved": "UITableViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser17WhyViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "title1Lb",
+     "@16@0:8"
+    ],
+    [
+     "setTitle1Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body1Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody1Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body2Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody2Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body3Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody3Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body4Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody4Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body5Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody5Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body6Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody6Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body7Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody7Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "button1",
+     "@16@0:8"
+    ],
+    [
+     "setButton1:",
+     "v24@0:8@16"
+    ],
+    [
+     "title2Lb",
+     "@16@0:8"
+    ],
+    [
+     "setTitle2Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body8Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody8Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body9Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody9Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body10Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody10Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body11Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody11Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body12Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody12Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "button2",
+     "@16@0:8"
+    ],
+    [
+     "setButton2:",
+     "v24@0:8@16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "action:",
+     "v24@0:8@16"
+    ],
+    [
+     "close",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "title1Lb",
+     "T@\"UILabel\",N,W,Vtitle1Lb"
+    ],
+    [
+     "body1Lb",
+     "T@\"UILabel\",N,W,Vbody1Lb"
+    ],
+    [
+     "body2Lb",
+     "T@\"UILabel\",N,W,Vbody2Lb"
+    ],
+    [
+     "body3Lb",
+     "T@\"UILabel\",N,W,Vbody3Lb"
+    ],
+    [
+     "body4Lb",
+     "T@\"UILabel\",N,W,Vbody4Lb"
+    ],
+    [
+     "body5Lb",
+     "T@\"UILabel\",N,W,Vbody5Lb"
+    ],
+    [
+     "body6Lb",
+     "T@\"UILabel\",N,W,Vbody6Lb"
+    ],
+    [
+     "body7Lb",
+     "T@\"UILabel\",N,W,Vbody7Lb"
+    ],
+    [
+     "button1",
+     "T@\"UIButton\",N,W,Vbutton1"
+    ],
+    [
+     "title2Lb",
+     "T@\"UILabel\",N,W,Vtitle2Lb"
+    ],
+    [
+     "body8Lb",
+     "T@\"UILabel\",N,W,Vbody8Lb"
+    ],
+    [
+     "body9Lb",
+     "T@\"UILabel\",N,W,Vbody9Lb"
+    ],
+    [
+     "body10Lb",
+     "T@\"UILabel\",N,W,Vbody10Lb"
+    ],
+    [
+     "body11Lb",
+     "T@\"UILabel\",N,W,Vbody11Lb"
+    ],
+    [
+     "body12Lb",
+     "T@\"UILabel\",N,W,Vbody12Lb"
+    ],
+    [
+     "button2",
+     "T@\"UIButton\",N,W,Vbutton2"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "WhyViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser25CustomSitesViewController",
+   "super": "_TtC12OnionBrowser29SearchableTableViewController",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "numberOfSectionsInTableView:",
+     "q24@0:8@16"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:titleForHeaderInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:canEditRowAtIndexPath:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "tableView:commitEditingStyle:forRowAtIndexPath:",
+     "v40@0:8@16q24@32"
+    ],
+    [
+     "tableView:willDisplayHeaderView:forSection:",
+     "v40@0:8@16@24q32"
+    ],
+    [
+     "tableView:didSelectRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "updateSearchResultsForSearchController:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithStyle:",
+     "@24@0:8q16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "CustomSitesViewController",
+   "super_resolved": "_TtC12OnionBrowser29SearchableTableViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser12ContentRules",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "ContentRules",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser29AddSearchEngineViewController",
+   "super": "_TtC12OnionBrowser23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "AddSearchEngineViewController",
+   "super_resolved": "_TtC12OnionBrowser23FixedFormViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser11NcBookmarks",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "NcBookmarks",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser14WebsiteStorage",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "WebsiteStorage",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser13SecureEnclave",
+   "super": "NSObject",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "SecureEnclave",
+   "super_resolved": "NSObject"
+  },
+  {
+   "name": "_TtC12OnionBrowser22StartTorViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "titleLb",
+     "@16@0:8"
+    ],
+    [
+     "setTitleLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "activityIndicator",
+     "@16@0:8"
+    ],
+    [
+     "setActivityIndicator:",
+     "v24@0:8@16"
+    ],
+    [
+     "retryBt",
+     "@16@0:8"
+    ],
+    [
+     "setRetryBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "progressView",
+     "@16@0:8"
+    ],
+    [
+     "setProgressView:",
+     "v24@0:8@16"
+    ],
+    [
+     "statusLb",
+     "@16@0:8"
+    ],
+    [
+     "setStatusLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "bridgesBt",
+     "@16@0:8"
+    ],
+    [
+     "setBridgesBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "viewDidAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "retry",
+     "v16@0:8"
+    ],
+    [
+     "configureBridges",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "titleLb",
+     "T@\"UILabel\",N,W,VtitleLb"
+    ],
+    [
+     "activityIndicator",
+     "T@\"UIActivityIndicatorView\",N,W,VactivityIndicator"
+    ],
+    [
+     "retryBt",
+     "T@\"UIButton\",N,W,VretryBt"
+    ],
+    [
+     "progressView",
+     "T@\"UIProgressView\",N,W,VprogressView"
+    ],
+    [
+     "statusLb",
+     "T@\"UILabel\",N,W,VstatusLb"
+    ],
+    [
+     "bridgesBt",
+     "T@\"UIButton\",N,W,VbridgesBt"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "StartTorViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser19UpdateAdvertisement",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "UpdateAdvertisement",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser12OrbotManager",
+   "super": "NSObject",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "OrbotManager",
+   "super_resolved": "NSObject"
+  },
+  {
+   "name": "_TtC12OnionBrowser12AltSvcHeader",
+   "super": "NSObject",
+   "methods": [
+    [
+     "services",
+     "@16@0:8"
+    ],
+    [
+     "setServices:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithToken:",
+     "@24@0:8@16"
+    ],
+    [
+     "initWithHeaders:",
+     "@24@0:8@16"
+    ],
+    [
+     "init:",
+     "@24@0:8@16"
+    ],
+    [
+     "description",
+     "@16@0:8"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "services",
+     "T@\"NSArray\",N,C"
+    ],
+    [
+     "description",
+     "T@\"NSString\",N,R"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "AltSvcHeader",
+   "super_resolved": "NSObject"
+  },
+  {
+   "name": "_TtC12OnionBrowser10AltService",
+   "super": "NSObject",
+   "methods": [
+    [
+     "protocolId",
+     "@16@0:8"
+    ],
+    [
+     "host",
+     "@16@0:8"
+    ],
+    [
+     "port",
+     "q16@0:8"
+    ],
+    [
+     "maxAge",
+     "q16@0:8"
+    ],
+    [
+     "persist",
+     "B16@0:8"
+    ],
+    [
+     "maxAgeAbsolute",
+     "@16@0:8"
+    ],
+    [
+     "initWithProtocolId:host:port:maxAge:persist:",
+     "@52@0:8@16@24q32q40B48"
+    ],
+    [
+     "hash",
+     "q16@0:8"
+    ],
+    [
+     "isEqual:",
+     "B24@0:8@16"
+    ],
+    [
+     "description",
+     "@16@0:8"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "protocolId",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "host",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "port",
+     "Tq,N,R,Vport"
+    ],
+    [
+     "maxAge",
+     "Tq,N,R,VmaxAge"
+    ],
+    [
+     "persist",
+     "TB,N,R,Vpersist"
+    ],
+    [
+     "maxAgeAbsolute",
+     "T@\"NSDate\",N,R"
+    ],
+    [
+     "hash",
+     "Tq,N,R"
+    ],
+    [
+     "description",
+     "T@\"NSString\",N,R"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "AltService",
+   "super_resolved": "NSObject"
+  },
+  {
+   "name": "_TtC12OnionBrowser15ClearAltService",
+   "super": "_TtC12OnionBrowser10AltService",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "hash",
+     "q16@0:8"
+    ],
+    [
+     "isEqual:",
+     "B24@0:8@16"
+    ],
+    [
+     "description",
+     "@16@0:8"
+    ],
+    [
+     "initWithProtocolId:host:port:maxAge:persist:",
+     "@52@0:8@16@24q32q40B48"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "hash",
+     "Tq,N,R"
+    ],
+    [
+     "description",
+     "T@\"NSString\",N,R"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "ClearAltService",
+   "super_resolved": "_TtC12OnionBrowser10AltService"
+  },
+  {
+   "name": "_TtC12OnionBrowser14PreviewWebView",
+   "super": "WKWebView",
+   "methods": [
+    [
+     "initWithFrame:configuration:",
+     "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "loadRequest:",
+     "@24@0:8@16"
+    ],
+    [
+     "webView:decidePolicyForNavigationAction:preferences:decisionHandler:",
+     "v48@0:8@16@24@32@?40"
+    ],
+    [
+     "webView:didReceiveAuthenticationChallenge:completionHandler:",
+     "v40@0:8@16@24@?32"
+    ],
+    [
+     "webView:authenticationChallenge:shouldAllowDeprecatedTLS:",
+     "v40@0:8@16@24@?32"
+    ],
+    [
+     "webView:didFinishNavigation:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "webView:didFailNavigation:withError:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "webView:didFailProvisionalNavigation:withError:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "webViewWebContentProcessDidTerminate:",
+     "v24@0:8@16"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "PreviewWebView",
+   "super_resolved": "WKWebView"
+  },
+  {
+   "name": "_TtC12OnionBrowser22SettingsViewController",
+   "super": "_TtC12OnionBrowser23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "dismsiss_",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "SettingsViewController",
+   "super_resolved": "_TtC12OnionBrowser23FixedFormViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser15BlurredSnapshot",
+   "super": "NSObject",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "BlurredSnapshot",
+   "super_resolved": "NSObject"
+  },
+  {
+   "name": "_TtC12OnionBrowser14SecurityShield",
+   "super": "UIView",
+   "methods": [
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "encodeWithCoder:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithFrame:",
+     "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "SecurityShield",
+   "super_resolved": "UIView"
+  },
+  {
+   "name": "_TtC12OnionBrowser22SecurityViewController",
+   "super": "_TtC12OnionBrowser23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "tableView:willDisplayHeaderView:forSection:",
+     "v40@0:8@16@24q32"
+    ],
+    [
+     "_dismiss",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "SecurityViewController",
+   "super_resolved": "_TtC12OnionBrowser23FixedFormViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser21HistoryViewController",
+   "super": "UITableViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:didSelectRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "_dismiss",
+     "v16@0:8"
+    ],
+    [
+     "initWithStyle:",
+     "@24@0:8q16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "HistoryViewController",
+   "super_resolved": "UITableViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser21CircuitViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "headerLb",
+     "@16@0:8"
+    ],
+    [
+     "setHeaderLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "tableView",
+     "@16@0:8"
+    ],
+    [
+     "setTableView:",
+     "v24@0:8@16"
+    ],
+    [
+     "noCircuitsView",
+     "@16@0:8"
+    ],
+    [
+     "setNoCircuitsView:",
+     "v24@0:8@16"
+    ],
+    [
+     "noCircuitsLb1",
+     "@16@0:8"
+    ],
+    [
+     "setNoCircuitsLb1:",
+     "v24@0:8@16"
+    ],
+    [
+     "noCircuitsLb2",
+     "@16@0:8"
+    ],
+    [
+     "setNoCircuitsLb2:",
+     "v24@0:8@16"
+    ],
+    [
+     "newCircuitsBt",
+     "@16@0:8"
+    ],
+    [
+     "setNewCircuitsBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "bridgeConfigBt",
+     "@16@0:8"
+    ],
+    [
+     "setBridgeConfigBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "preferredContentSize",
+     "{CGSize=dd}16@0:8"
+    ],
+    [
+     "setPreferredContentSize:",
+     "v32@0:8{CGSize=dd}16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:heightForRowAtIndexPath:",
+     "d32@0:8@16@24"
+    ],
+    [
+     "adaptivePresentationStyleForPresentationController:",
+     "q24@0:8@16"
+    ],
+    [
+     "newCircuits",
+     "v16@0:8"
+    ],
+    [
+     "showBridgeSelection:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "headerLb",
+     "T@\"UILabel\",N,W,VheaderLb"
+    ],
+    [
+     "tableView",
+     "T@\"UITableView\",N,W,VtableView"
+    ],
+    [
+     "noCircuitsView",
+     "T@\"UIView\",N,W,VnoCircuitsView"
+    ],
+    [
+     "noCircuitsLb1",
+     "T@\"UILabel\",N,W,VnoCircuitsLb1"
+    ],
+    [
+     "noCircuitsLb2",
+     "T@\"UILabel\",N,W,VnoCircuitsLb2"
+    ],
+    [
+     "newCircuitsBt",
+     "T@\"UIButton\",N,W,VnewCircuitsBt"
+    ],
+    [
+     "bridgeConfigBt",
+     "T@\"UIButton\",N,W,VbridgeConfigBt"
+    ],
+    [
+     "preferredContentSize",
+     "T{CGSize=dd},N"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "CircuitViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser23FixedFormViewController",
+   "super": "EurekaFormViewController",
+   "methods": [
+    [
+     "keyboardWillShow:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "FixedFormViewController",
+   "super_resolved": "EurekaFormViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser10TorManager",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "TorManager",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser27SearchEnginesViewController",
+   "super": "_TtC12OnionBrowser23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "setEditing:animated:",
+     "v24@0:8B16B20"
+    ],
+    [
+     "tableView:didSelectRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "SearchEnginesViewController",
+   "super_resolved": "_TtC12OnionBrowser23FixedFormViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser22BrowsingViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "keyCommands",
+     "@16@0:8"
+    ],
+    [
+     "handle:",
+     "v24@0:8@16"
+    ],
+    [
+     "preferredStatusBarStyle",
+     "q16@0:8"
+    ],
+    [
+     "showOverview",
+     "v16@0:8"
+    ],
+    [
+     "newTabFromOverview",
+     "v16@0:8"
+    ],
+    [
+     "hideOverview",
+     "v16@0:8"
+    ],
+    [
+     "collectionView:numberOfItemsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "collectionView:cellForItemAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "collectionView:didSelectItemAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "collectionView:layout:sizeForItemAtIndexPath:",
+     "{CGSize=dd}40@0:8@16@24@32"
+    ],
+    [
+     "collectionView:itemsForBeginningDragSession:atIndexPath:",
+     "@40@0:8@16@24@32"
+    ],
+    [
+     "collectionView:dropSessionDidUpdate:withDestinationIndexPath:",
+     "@40@0:8@16@24@32"
+    ],
+    [
+     "collectionView:performDropWithCoordinator:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "scrollViewDidScrollToTop:",
+     "v24@0:8@16"
+    ],
+    [
+     "scrollViewDidScroll:",
+     "v24@0:8@16"
+    ],
+    [
+     "gestureRecognizer:shouldRequireFailureOfGestureRecognizer:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "showHistory:",
+     "v24@0:8@16"
+    ],
+    [
+     "textFieldDidBeginEditing:",
+     "v24@0:8@16"
+    ],
+    [
+     "textFieldShouldReturn:",
+     "B24@0:8@16"
+    ],
+    [
+     "textFieldDidEndEditing:reason:",
+     "v32@0:8@16q24"
+    ],
+    [
+     "searchDidChange",
+     "v16@0:8"
+    ],
+    [
+     "searchBar",
+     "@16@0:8"
+    ],
+    [
+     "setSearchBar:",
+     "v24@0:8@16"
+    ],
+    [
+     "searchBarHeightConstraint",
+     "@16@0:8"
+    ],
+    [
+     "setSearchBarHeightConstraint:",
+     "v24@0:8@16"
+    ],
+    [
+     "securityBt",
+     "@16@0:8"
+    ],
+    [
+     "setSecurityBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "searchFl",
+     "@16@0:8"
+    ],
+    [
+     "setSearchFl:",
+     "v24@0:8@16"
+    ],
+    [
+     "torBt",
+     "@16@0:8"
+    ],
+    [
+     "setTorBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "progress",
+     "@16@0:8"
+    ],
+    [
+     "setProgress:",
+     "v24@0:8@16"
+    ],
+    [
+     "container",
+     "@16@0:8"
+    ],
+    [
+     "setContainer:",
+     "v24@0:8@16"
+    ],
+    [
+     "containerBottomConstraint2Toolbar",
+     "@16@0:8"
+    ],
+    [
+     "setContainerBottomConstraint2Toolbar:",
+     "v24@0:8@16"
+    ],
+    [
+     "tabsCollection",
+     "@16@0:8"
+    ],
+    [
+     "setTabsCollection:",
+     "v24@0:8@16"
+    ],
+    [
+     "toolbar",
+     "@16@0:8"
+    ],
+    [
+     "setToolbar:",
+     "v24@0:8@16"
+    ],
+    [
+     "toolbarHeightConstraint",
+     "@16@0:8"
+    ],
+    [
+     "setToolbarHeightConstraint:",
+     "v24@0:8@16"
+    ],
+    [
+     "mainTools",
+     "@16@0:8"
+    ],
+    [
+     "setMainTools:",
+     "v24@0:8@16"
+    ],
+    [
+     "tabsTools",
+     "@16@0:8"
+    ],
+    [
+     "setTabsTools:",
+     "v24@0:8@16"
+    ],
+    [
+     "backBt",
+     "@16@0:8"
+    ],
+    [
+     "setBackBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "frwrdBt",
+     "@16@0:8"
+    ],
+    [
+     "setFrwrdBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "findBt",
+     "@16@0:8"
+    ],
+    [
+     "setFindBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "actionBt",
+     "@16@0:8"
+    ],
+    [
+     "setActionBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "bookmarksBt",
+     "@16@0:8"
+    ],
+    [
+     "setBookmarksBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "newTabBt",
+     "@16@0:8"
+    ],
+    [
+     "setNewTabBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "tabsBt",
+     "@16@0:8"
+    ],
+    [
+     "setTabsBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "settingsBt",
+     "@16@0:8"
+    ],
+    [
+     "setSettingsBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "newTabFromOverviewBt",
+     "@16@0:8"
+    ],
+    [
+     "setNewTabFromOverviewBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "hideOverviewBt",
+     "@16@0:8"
+    ],
+    [
+     "setHideOverviewBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "tabs",
+     "@16@0:8"
+    ],
+    [
+     "setTabs:",
+     "v24@0:8@16"
+    ],
+    [
+     "currentTab",
+     "@16@0:8"
+    ],
+    [
+     "setCurrentTab:",
+     "v24@0:8@16"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "viewDidAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "encodeRestorableStateWithCoder:",
+     "v24@0:8@16"
+    ],
+    [
+     "decodeRestorableStateWithCoder:",
+     "v24@0:8@16"
+    ],
+    [
+     "action:",
+     "v24@0:8@16"
+    ],
+    [
+     "showBookmarks",
+     "v16@0:8"
+    ],
+    [
+     "showSettings",
+     "@16@0:8"
+    ],
+    [
+     "keyboardWillShowWithNotification:",
+     "v24@0:8@16"
+    ],
+    [
+     "keyboardWillBeHiddenWithNotification:",
+     "v24@0:8@16"
+    ],
+    [
+     "addNewTab:configuration:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "becomesVisible",
+     "v16@0:8"
+    ],
+    [
+     "addEmptyTabAndFocus",
+     "v16@0:8"
+    ],
+    [
+     "switchToTab:",
+     "v24@0:8q16"
+    ],
+    [
+     "removeCurrentTab",
+     "v16@0:8"
+    ],
+    [
+     "removeAllTabs",
+     "v16@0:8"
+    ],
+    [
+     "focusSearchField",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "preferredStatusBarStyle",
+     "Tq,N,R"
+    ],
+    [
+     "keyCommands",
+     "T@\"NSArray\",N,R"
+    ],
+    [
+     "searchBar",
+     "T@\"UIView\",N,W,VsearchBar"
+    ],
+    [
+     "searchBarHeightConstraint",
+     "T@\"NSLayoutConstraint\",N,W,VsearchBarHeightConstraint"
+    ],
+    [
+     "securityBt",
+     "T@\"UIButton\",N,W,VsecurityBt"
+    ],
+    [
+     "searchFl",
+     "T@\"UITextField\",N,W,VsearchFl"
+    ],
+    [
+     "torBt",
+     "T@\"UIButton\",N,W,VtorBt"
+    ],
+    [
+     "progress",
+     "T@\"UIProgressView\",N,W,Vprogress"
+    ],
+    [
+     "container",
+     "T@\"UIView\",N,W,Vcontainer"
+    ],
+    [
+     "containerBottomConstraint2Toolbar",
+     "T@\"NSLayoutConstraint\",N,W,VcontainerBottomConstraint2Toolbar"
+    ],
+    [
+     "tabsCollection",
+     "T@\"UICollectionView\",N,W,VtabsCollection"
+    ],
+    [
+     "toolbar",
+     "T@\"UIView\",N,W,Vtoolbar"
+    ],
+    [
+     "toolbarHeightConstraint",
+     "T@\"NSLayoutConstraint\",N,W,VtoolbarHeightConstraint"
+    ],
+    [
+     "mainTools",
+     "T@\"UIStackView\",N,W,VmainTools"
+    ],
+    [
+     "tabsTools",
+     "T@\"UIView\",N,W,VtabsTools"
+    ],
+    [
+     "backBt",
+     "T@\"UIButton\",N,W,VbackBt"
+    ],
+    [
+     "frwrdBt",
+     "T@\"UIButton\",N,W,VfrwrdBt"
+    ],
+    [
+     "findBt",
+     "T@\"UIButton\",N,W,VfindBt"
+    ],
+    [
+     "actionBt",
+     "T@\"UIButton\",N,W,VactionBt"
+    ],
+    [
+     "bookmarksBt",
+     "T@\"UIButton\",N,W,VbookmarksBt"
+    ],
+    [
+     "newTabBt",
+     "T@\"UIButton\",N,W,VnewTabBt"
+    ],
+    [
+     "tabsBt",
+     "T@\"UIButton\",N,W,VtabsBt"
+    ],
+    [
+     "settingsBt",
+     "T@\"UIButton\",N,W,VsettingsBt"
+    ],
+    [
+     "newTabFromOverviewBt",
+     "T@\"UIButton\",N,W,VnewTabFromOverviewBt"
+    ],
+    [
+     "hideOverviewBt",
+     "T@\"UIButton\",N,W,VhideOverviewBt"
+    ],
+    [
+     "tabs",
+     "T@\"NSArray\",N,C"
+    ],
+    [
+     "currentTab",
+     "T@\"_TtC12OnionBrowser3Tab\",N,W"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "BrowsingViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser21WelcomeViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "titleLb",
+     "@16@0:8"
+    ],
+    [
+     "setTitleLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "bodyLb",
+     "@16@0:8"
+    ],
+    [
+     "setBodyLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "nextBt",
+     "@16@0:8"
+    ],
+    [
+     "setNextBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "next",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "titleLb",
+     "T@\"UILabel\",N,W,VtitleLb"
+    ],
+    [
+     "bodyLb",
+     "T@\"UILabel\",N,W,VbodyLb"
+    ],
+    [
+     "nextBt",
+     "T@\"UIButton\",N,W,VnextBt"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "WelcomeViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser7TabCell",
+   "super": "UICollectionViewCell",
+   "methods": [
+    [
+     "header",
+     "@16@0:8"
+    ],
+    [
+     "setHeader:",
+     "v24@0:8@16"
+    ],
+    [
+     "title",
+     "@16@0:8"
+    ],
+    [
+     "setTitle:",
+     "v24@0:8@16"
+    ],
+    [
+     "preview",
+     "@16@0:8"
+    ],
+    [
+     "setPreview:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithFrame:",
+     "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "close",
+     "v16@0:8"
+    ],
+    [
+     "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "pan:",
+     "v24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "header",
+     "T@\"UIView\",N,W,Vheader"
+    ],
+    [
+     "title",
+     "T@\"UILabel\",N,W,Vtitle"
+    ],
+    [
+     "preview",
+     "T@\"UIImageView\",N,W,Vpreview"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "TabCell",
+   "super_resolved": "UICollectionViewCell"
+  },
+  {
+   "name": "_TtC12OnionBrowser23BlocklistViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "enableLb",
+     "@16@0:8"
+    ],
+    [
+     "setEnableLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "enableSw",
+     "@16@0:8"
+    ],
+    [
+     "setEnableSw:",
+     "v24@0:8@16"
+    ],
+    [
+     "tableView",
+     "@16@0:8"
+    ],
+    [
+     "setTableView:",
+     "v24@0:8@16"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "numberOfSectionsInTableView:",
+     "q24@0:8@16"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:titleForHeaderInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:canEditRowAtIndexPath:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "tableView:commitEditingStyle:forRowAtIndexPath:",
+     "v40@0:8@16q24@32"
+    ],
+    [
+     "tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:didSelectRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "updateSearchResultsForSearchController:",
+     "v24@0:8@16"
+    ],
+    [
+     "update",
+     "v16@0:8"
+    ],
+    [
+     "toggleBlocker",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "enableLb",
+     "T@\"UILabel\",N,W,VenableLb"
+    ],
+    [
+     "enableSw",
+     "T@\"UISwitch\",N,W,VenableSw"
+    ],
+    [
+     "tableView",
+     "T@\"UITableView\",N,W,VtableView"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "BlocklistViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "URLBlocker",
+   "super": "NSObject",
+   "methods": [
+    [
+     "hosts",
+     "@16@0:8"
+    ],
+    [
+     "setHosts:",
+     "v24@0:8@16"
+    ],
+    [
+     "title",
+     "@16@0:8"
+    ],
+    [
+     "setTitle:",
+     "v24@0:8@16"
+    ],
+    [
+     "desc",
+     "@16@0:8"
+    ],
+    [
+     "setDesc:",
+     "v24@0:8@16"
+    ],
+    [
+     "modified",
+     "@16@0:8"
+    ],
+    [
+     "setModified:",
+     "v24@0:8@16"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "reload",
+     "v16@0:8"
+    ],
+    [
+     "blockRuleFor:withMain:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "isDisabledWithHost:",
+     "@24@0:8@16"
+    ],
+    [
+     "disableWithHost:with:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "enableWithHost:",
+     "v24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "hosts",
+     "T@\"NSArray\",N,C"
+    ],
+    [
+     "title",
+     "T@\"NSString\",N,C"
+    ],
+    [
+     "desc",
+     "T@\"NSString\",N,C"
+    ],
+    [
+     "modified",
+     "T@\"NSString\",N,C"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "URLBlocker",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "_TtC12OnionBrowser17SecurityLevelCell",
+   "super": "UITableViewCell",
+   "methods": [
+    [
+     "awakeFromNib",
+     "v16@0:8"
+    ],
+    [
+     "shieldImg",
+     "@16@0:8"
+    ],
+    [
+     "setShieldImg:",
+     "v24@0:8@16"
+    ],
+    [
+     "numberLb",
+     "@16@0:8"
+    ],
+    [
+     "setNumberLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "nameLb",
+     "@16@0:8"
+    ],
+    [
+     "setNameLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "explanationLb",
+     "@16@0:8"
+    ],
+    [
+     "setExplanationLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "radioLb",
+     "@16@0:8"
+    ],
+    [
+     "setRadioLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "setSelected:animated:",
+     "v24@0:8B16B20"
+    ],
+    [
+     "initWithStyle:reuseIdentifier:",
+     "@32@0:8q16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "shieldImg",
+     "T@\"UIImageView\",N,W,VshieldImg"
+    ],
+    [
+     "numberLb",
+     "T@\"UILabel\",N,W,VnumberLb"
+    ],
+    [
+     "nameLb",
+     "T@\"UILabel\",N,W,VnameLb"
+    ],
+    [
+     "explanationLb",
+     "T@\"UILabel\",N,W,VexplanationLb"
+    ],
+    [
+     "radioLb",
+     "T@\"UILabel\",N,W,VradioLb"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "SecurityLevelCell",
+   "super_resolved": "UITableViewCell"
+  },
+  {
+   "name": "_TtC12OnionBrowser12HostSettings",
+   "super": "NSObject",
+   "methods": [
+    [
+     "host",
+     "@16@0:8"
+    ],
+    [
+     "ignoreTlsErrors",
+     "B16@0:8"
+    ],
+    [
+     "setIgnoreTlsErrors:",
+     "v20@0:8B16"
+    ],
+    [
+     "whitelistCookies",
+     "B16@0:8"
+    ],
+    [
+     "setWhitelistCookies:",
+     "v20@0:8B16"
+    ],
+    [
+     "blockInsecureHttp",
+     "B16@0:8"
+    ],
+    [
+     "setBlockInsecureHttp:",
+     "v20@0:8B16"
+    ],
+    [
+     "universalLinkProtection",
+     "B16@0:8"
+    ],
+    [
+     "setUniversalLinkProtection:",
+     "v20@0:8B16"
+    ],
+    [
+     "followOnionLocationHeader",
+     "B16@0:8"
+    ],
+    [
+     "setFollowOnionLocationHeader:",
+     "v20@0:8B16"
+    ],
+    [
+     "userAgent",
+     "@16@0:8"
+    ],
+    [
+     "setUserAgent:",
+     "v24@0:8@16"
+    ],
+    [
+     "javaScript",
+     "B16@0:8"
+    ],
+    [
+     "setJavaScript:",
+     "v20@0:8B16"
+    ],
+    [
+     "lockdownMode",
+     "B16@0:8"
+    ],
+    [
+     "setLockdownMode:",
+     "v20@0:8B16"
+    ],
+    [
+     "orientationAndMotion",
+     "B16@0:8"
+    ],
+    [
+     "setOrientationAndMotion:",
+     "v20@0:8B16"
+    ],
+    [
+     "mediaCapture",
+     "B16@0:8"
+    ],
+    [
+     "setMediaCapture:",
+     "v20@0:8B16"
+    ],
+    [
+     "linkPreview",
+     "B16@0:8"
+    ],
+    [
+     "setLinkPreview:",
+     "v20@0:8B16"
+    ],
+    [
+     "initFor:withDefaults:",
+     "@28@0:8@16B24"
+    ],
+    [
+     "save",
+     "#16@0:8"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "host",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "ignoreTlsErrors",
+     "TB,N"
+    ],
+    [
+     "whitelistCookies",
+     "TB,N"
+    ],
+    [
+     "blockInsecureHttp",
+     "TB,N"
+    ],
+    [
+     "universalLinkProtection",
+     "TB,N"
+    ],
+    [
+     "followOnionLocationHeader",
+     "TB,N"
+    ],
+    [
+     "userAgent",
+     "T@\"NSString\",N,C"
+    ],
+    [
+     "javaScript",
+     "TB,N"
+    ],
+    [
+     "lockdownMode",
+     "TB,N"
+    ],
+    [
+     "orientationAndMotion",
+     "TB,N"
+    ],
+    [
+     "mediaCapture",
+     "TB,N"
+    ],
+    [
+     "linkPreview",
+     "TB,N"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "HostSettings",
+   "super_resolved": "NSObject"
+  },
+  {
+   "name": "_TtC12OnionBrowser29SearchableTableViewController",
+   "super": "UITableViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "updateSearchResultsForSearchController:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithStyle:",
+     "@24@0:8q16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "SearchableTableViewController",
+   "super_resolved": "UITableViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser24PermissionViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "backtBt",
+     "@16@0:8"
+    ],
+    [
+     "setBacktBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "statusIv",
+     "@16@0:8"
+    ],
+    [
+     "setStatusIv:",
+     "v24@0:8@16"
+    ],
+    [
+     "titleLb",
+     "@16@0:8"
+    ],
+    [
+     "setTitleLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body1Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody1Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body2Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody2Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body2Top",
+     "@16@0:8"
+    ],
+    [
+     "setBody2Top:",
+     "v24@0:8@16"
+    ],
+    [
+     "body3Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody3Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "body4Lb",
+     "@16@0:8"
+    ],
+    [
+     "setBody4Lb:",
+     "v24@0:8@16"
+    ],
+    [
+     "requestAccessBt",
+     "@16@0:8"
+    ],
+    [
+     "setRequestAccessBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "whyBt",
+     "@16@0:8"
+    ],
+    [
+     "setWhyBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "back",
+     "v16@0:8"
+    ],
+    [
+     "action",
+     "v16@0:8"
+    ],
+    [
+     "why",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "backtBt",
+     "T@\"UIButton\",N,W,VbacktBt"
+    ],
+    [
+     "statusIv",
+     "T@\"UIImageView\",N,W,VstatusIv"
+    ],
+    [
+     "titleLb",
+     "T@\"UILabel\",N,W,VtitleLb"
+    ],
+    [
+     "body1Lb",
+     "T@\"UILabel\",N,W,Vbody1Lb"
+    ],
+    [
+     "body2Lb",
+     "T@\"UILabel\",N,W,Vbody2Lb"
+    ],
+    [
+     "body2Top",
+     "T@\"NSLayoutConstraint\",N,W,Vbody2Top"
+    ],
+    [
+     "body3Lb",
+     "T@\"UILabel\",N,W,Vbody3Lb"
+    ],
+    [
+     "body4Lb",
+     "T@\"UILabel\",N,W,Vbody4Lb"
+    ],
+    [
+     "requestAccessBt",
+     "T@\"UIButton\",N,W,VrequestAccessBt"
+    ],
+    [
+     "whyBt",
+     "T@\"UIButton\",N,W,VwhyBt"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "PermissionViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser24StartOrbotViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "titleLb",
+     "@16@0:8"
+    ],
+    [
+     "setTitleLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "bodyLb",
+     "@16@0:8"
+    ],
+    [
+     "setBodyLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "startOrbotBt",
+     "@16@0:8"
+    ],
+    [
+     "setStartOrbotBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "startBuiltInTorBt",
+     "@16@0:8"
+    ],
+    [
+     "setStartBuiltInTorBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "whyBt",
+     "@16@0:8"
+    ],
+    [
+     "setWhyBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "action:",
+     "v24@0:8@16"
+    ],
+    [
+     "why",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "titleLb",
+     "T@\"UILabel\",N,W,VtitleLb"
+    ],
+    [
+     "bodyLb",
+     "T@\"UILabel\",N,W,VbodyLb"
+    ],
+    [
+     "startOrbotBt",
+     "T@\"UIButton\",N,W,VstartOrbotBt"
+    ],
+    [
+     "startBuiltInTorBt",
+     "T@\"UIButton\",N,W,VstartBuiltInTorBt"
+    ],
+    [
+     "whyBt",
+     "T@\"UIButton\",N,W,VwhyBt"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "StartOrbotViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser21AddSiteViewController",
+   "super": "_TtC12OnionBrowser23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "add",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "AddSiteViewController",
+   "super_resolved": "_TtC12OnionBrowser23FixedFormViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser22DonationViewController",
+   "super": "UITableViewController",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "numberOfSectionsInTableView:",
+     "q24@0:8@16"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:titleForHeaderInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:titleForFooterInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:didSelectRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "productsRequest:didReceiveResponse:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "paymentQueue:updatedTransactions:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "initWithStyle:",
+     "@24@0:8q16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "DonationViewController",
+   "super_resolved": "UITableViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser16MozillaBookmarks",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "MozillaBookmarks",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser11AlertHelper",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "AlertHelper",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser10NcBookmark",
+   "super": "Codable",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "NcBookmark",
+   "super_resolved": "Codable"
+  },
+  {
+   "name": "_TtC12OnionBrowser22Storage2ViewController",
+   "super": "UITableViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "numberOfSectionsInTableView:",
+     "q24@0:8@16"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithStyle:",
+     "@24@0:8q16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Storage2ViewController",
+   "super_resolved": "UITableViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser19AddBookmarkActivity",
+   "super": "UIActivity",
+   "methods": [
+    [
+     "activityType",
+     "@16@0:8"
+    ],
+    [
+     "activityTitle",
+     "@16@0:8"
+    ],
+    [
+     "activityImage",
+     "@16@0:8"
+    ],
+    [
+     "canPerformWithActivityItems:",
+     "B24@0:8@16"
+    ],
+    [
+     "prepareWithActivityItems:",
+     "v24@0:8@16"
+    ],
+    [
+     "performActivity",
+     "v16@0:8"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "activityType",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "activityTitle",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "activityImage",
+     "T@\"UIImage\",N,R"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "AddBookmarkActivity",
+   "super_resolved": "UIActivity"
+  },
+  {
+   "name": "_TtC12OnionBrowser14FileTranslator",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "FileTranslator",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser14TlsCertificate",
+   "super": "NSObject",
+   "methods": [
+    [
+     "version",
+     "q16@0:8"
+    ],
+    [
+     "setVersion:",
+     "v24@0:8q16"
+    ],
+    [
+     "serialNumber",
+     "@16@0:8"
+    ],
+    [
+     "setSerialNumber:",
+     "v24@0:8@16"
+    ],
+    [
+     "signatureAlgorithm",
+     "@16@0:8"
+    ],
+    [
+     "setSignatureAlgorithm:",
+     "v24@0:8@16"
+    ],
+    [
+     "issuer",
+     "@16@0:8"
+    ],
+    [
+     "setIssuer:",
+     "v24@0:8@16"
+    ],
+    [
+     "validityNotBefore",
+     "@16@0:8"
+    ],
+    [
+     "setValidityNotBefore:",
+     "v24@0:8@16"
+    ],
+    [
+     "validityNotAfter",
+     "@16@0:8"
+    ],
+    [
+     "setValidityNotAfter:",
+     "v24@0:8@16"
+    ],
+    [
+     "subject",
+     "@16@0:8"
+    ],
+    [
+     "setSubject:",
+     "v24@0:8@16"
+    ],
+    [
+     "isEv",
+     "B16@0:8"
+    ],
+    [
+     "setIsEv:",
+     "v20@0:8B16"
+    ],
+    [
+     "evOrgName",
+     "@16@0:8"
+    ],
+    [
+     "setEvOrgName:",
+     "v24@0:8@16"
+    ],
+    [
+     "hasWeakSignatureAlgorithm",
+     "B16@0:8"
+    ],
+    [
+     "isExpired",
+     "B16@0:8"
+    ],
+    [
+     "initWithData:",
+     "@24@0:8@16"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "version",
+     "Tq,N,Vversion"
+    ],
+    [
+     "serialNumber",
+     "T@\"NSString\",N,C"
+    ],
+    [
+     "signatureAlgorithm",
+     "T@\"NSString\",N,C"
+    ],
+    [
+     "issuer",
+     "T@\"TlsCertificateEntity\",N,&,Vissuer"
+    ],
+    [
+     "validityNotBefore",
+     "T@\"NSDate\",N,C"
+    ],
+    [
+     "validityNotAfter",
+     "T@\"NSDate\",N,C"
+    ],
+    [
+     "subject",
+     "T@\"TlsCertificateEntity\",N,&,Vsubject"
+    ],
+    [
+     "isEv",
+     "TB,N,VisEv"
+    ],
+    [
+     "evOrgName",
+     "T@\"NSString\",N,C"
+    ],
+    [
+     "hasWeakSignatureAlgorithm",
+     "TB,N,R"
+    ],
+    [
+     "isExpired",
+     "TB,N,R"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "TlsCertificate",
+   "super_resolved": "NSObject"
+  },
+  {
+   "name": "TlsCertificateEntity",
+   "super": "NSObject",
+   "methods": [
+    [
+     "data",
+     "@16@0:8"
+    ],
+    [
+     "setData:",
+     "v24@0:8@16"
+    ],
+    [
+     "commonName",
+     "@16@0:8"
+    ],
+    [
+     "sn",
+     "@16@0:8"
+    ],
+    [
+     "serialNumber",
+     "@16@0:8"
+    ],
+    [
+     "country",
+     "@16@0:8"
+    ],
+    [
+     "locality",
+     "@16@0:8"
+    ],
+    [
+     "state",
+     "@16@0:8"
+    ],
+    [
+     "address",
+     "@16@0:8"
+    ],
+    [
+     "organization",
+     "@16@0:8"
+    ],
+    [
+     "orgUnit",
+     "@16@0:8"
+    ],
+    [
+     "businessCategory",
+     "@16@0:8"
+    ],
+    [
+     "postalCode",
+     "@16@0:8"
+    ],
+    [
+     "add::",
+     "v32@0:8@16@24"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "data",
+     "T@\"NSDictionary\",N,C"
+    ],
+    [
+     "commonName",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "sn",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "serialNumber",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "country",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "locality",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "state",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "address",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "organization",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "orgUnit",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "businessCategory",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "postalCode",
+     "T@\"NSString\",N,R"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "TlsCertificateEntity",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "_TtC12OnionBrowser14DownloadHelper",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "DownloadHelper",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser16DownloadActivity",
+   "super": "UIActivity",
+   "methods": [
+    [
+     "activityType",
+     "@16@0:8"
+    ],
+    [
+     "activityTitle",
+     "@16@0:8"
+    ],
+    [
+     "activityImage",
+     "@16@0:8"
+    ],
+    [
+     "canPerformWithActivityItems:",
+     "B24@0:8@16"
+    ],
+    [
+     "prepareWithActivityItems:",
+     "v24@0:8@16"
+    ],
+    [
+     "performActivity",
+     "v16@0:8"
+    ],
+    [
+     "URLSession:task:didReceiveChallenge:completionHandler:",
+     "v48@0:8@16@24@32@?40"
+    ],
+    [
+     "URLSession:task:didCompleteWithError:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "URLSession:downloadTask:didFinishDownloadingToURL:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:",
+     "v56@0:8@16@24q32q40q48"
+    ],
+    [
+     "cancel",
+     "v16@0:8"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "activityType",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "activityTitle",
+     "T@\"NSString\",N,R"
+    ],
+    [
+     "activityImage",
+     "T@\"UIImage\",N,R"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "DownloadActivity",
+   "super_resolved": "UIActivity"
+  },
+  {
+   "name": "_TtC12OnionBrowser11AppDelegate",
+   "super": "NSObject",
+   "methods": [
+    [
+     "browsingUis",
+     "@16@0:8"
+    ],
+    [
+     "application:willFinishLaunchingWithOptions:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "application:didDiscardSceneSessions:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "applicationWillTerminate:",
+     "v24@0:8@16"
+    ],
+    [
+     "application:shouldAllowExtensionPointIdentifier:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "application:shouldRestoreSecureApplicationState:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "application:shouldRestoreApplicationState:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "application:shouldSaveApplicationState:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "application:shouldSaveSecureApplicationState:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "applicationDidReceiveMemoryWarning:",
+     "v24@0:8@16"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "browsingUis",
+     "T@\"NSArray\",N,R"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "AppDelegate",
+   "super_resolved": "NSObject"
+  },
+  {
+   "name": "_TtC12OnionBrowser12BookmarkCell",
+   "super": "UITableViewCell",
+   "methods": [
+    [
+     "iconImg",
+     "@16@0:8"
+    ],
+    [
+     "setIconImg:",
+     "v24@0:8@16"
+    ],
+    [
+     "iconWidth",
+     "@16@0:8"
+    ],
+    [
+     "setIconWidth:",
+     "v24@0:8@16"
+    ],
+    [
+     "nameLb",
+     "@16@0:8"
+    ],
+    [
+     "setNameLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "nameLeading",
+     "@16@0:8"
+    ],
+    [
+     "setNameLeading:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithStyle:reuseIdentifier:",
+     "@32@0:8q16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "iconImg",
+     "T@\"UIImageView\",N,W,ViconImg"
+    ],
+    [
+     "iconWidth",
+     "T@\"NSLayoutConstraint\",N,W,ViconWidth"
+    ],
+    [
+     "nameLb",
+     "T@\"UILabel\",N,W,VnameLb"
+    ],
+    [
+     "nameLeading",
+     "T@\"NSLayoutConstraint\",N,W,VnameLeading"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "BookmarkCell",
+   "super_resolved": "UITableViewCell"
+  },
+  {
+   "name": "_TtC12OnionBrowser22BookmarkViewController",
+   "super": "_TtC12OnionBrowser23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "addNew",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "BookmarkViewController",
+   "super_resolved": "_TtC12OnionBrowser23FixedFormViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser22BaseNavigationDelegate",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "BaseNavigationDelegate",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser3Log",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Log",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser22Storage1ViewController",
+   "super": "_TtC12OnionBrowser29SearchableTableViewController",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "numberOfSectionsInTableView:",
+     "q24@0:8@16"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:heightForHeaderInSection:",
+     "d32@0:8@16q24"
+    ],
+    [
+     "tableView:viewForHeaderInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:canEditRowAtIndexPath:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "tableView:commitEditingStyle:forRowAtIndexPath:",
+     "v40@0:8@16q24@32"
+    ],
+    [
+     "tableView:didSelectRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "updateSearchResultsForSearchController:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithStyle:",
+     "@24@0:8q16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Storage1ViewController",
+   "super_resolved": "_TtC12OnionBrowser29SearchableTableViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser8NcServer",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "NcServer",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC12OnionBrowser21InstallViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "backBt",
+     "@16@0:8"
+    ],
+    [
+     "setBackBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "titleLb",
+     "@16@0:8"
+    ],
+    [
+     "setTitleLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "bodyLb",
+     "@16@0:8"
+    ],
+    [
+     "setBodyLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "getOrbotBt",
+     "@16@0:8"
+    ],
+    [
+     "setGetOrbotBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "whyBt",
+     "@16@0:8"
+    ],
+    [
+     "setWhyBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "back",
+     "v16@0:8"
+    ],
+    [
+     "action",
+     "v16@0:8"
+    ],
+    [
+     "why",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "backBt",
+     "T@\"UIButton\",N,W,VbackBt"
+    ],
+    [
+     "titleLb",
+     "T@\"UILabel\",N,W,VtitleLb"
+    ],
+    [
+     "bodyLb",
+     "T@\"UILabel\",N,W,VbodyLb"
+    ],
+    [
+     "getOrbotBt",
+     "T@\"UIButton\",N,W,VgetOrbotBt"
+    ],
+    [
+     "whyBt",
+     "T@\"UIButton\",N,W,VwhyBt"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "InstallViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser20FolderViewController",
+   "super": "_TtC12OnionBrowser23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "addNew",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "FolderViewController",
+   "super_resolved": "_TtC12OnionBrowser23FixedFormViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser28OrbotOrBuiltInViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "titleLb",
+     "@16@0:8"
+    ],
+    [
+     "setTitleLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "bodyLb",
+     "@16@0:8"
+    ],
+    [
+     "setBodyLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "useOrbotBt",
+     "@16@0:8"
+    ],
+    [
+     "setUseOrbotBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "useBuiltInTor",
+     "@16@0:8"
+    ],
+    [
+     "setUseBuiltInTor:",
+     "v24@0:8@16"
+    ],
+    [
+     "whyBt",
+     "@16@0:8"
+    ],
+    [
+     "setWhyBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "action:",
+     "v24@0:8@16"
+    ],
+    [
+     "why",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "titleLb",
+     "T@\"UILabel\",N,W,VtitleLb"
+    ],
+    [
+     "bodyLb",
+     "T@\"UILabel\",N,W,VbodyLb"
+    ],
+    [
+     "useOrbotBt",
+     "T@\"UIButton\",N,W,VuseOrbotBt"
+    ],
+    [
+     "useBuiltInTor",
+     "T@\"UIButton\",N,W,VuseBuiltInTor"
+    ],
+    [
+     "whyBt",
+     "T@\"UIButton\",N,W,VwhyBt"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "OrbotOrBuiltInViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser9Formatter",
+   "super": "NSObject",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Formatter",
+   "super_resolved": "NSObject"
+  },
+  {
+   "name": "_TtC12OnionBrowser15CircuitNodeCell",
+   "super": "UITableViewCell",
+   "methods": [
+    [
+     "topLink",
+     "@16@0:8"
+    ],
+    [
+     "setTopLink:",
+     "v24@0:8@16"
+    ],
+    [
+     "bottomLink",
+     "@16@0:8"
+    ],
+    [
+     "setBottomLink:",
+     "v24@0:8@16"
+    ],
+    [
+     "textLb",
+     "@16@0:8"
+    ],
+    [
+     "setTextLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithStyle:reuseIdentifier:",
+     "@32@0:8q16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "topLink",
+     "T@\"UIView\",N,W,VtopLink"
+    ],
+    [
+     "bottomLink",
+     "T@\"UIView\",N,W,VbottomLink"
+    ],
+    [
+     "textLb",
+     "T@\"UILabel\",N,W,VtextLb"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "CircuitNodeCell",
+   "super_resolved": "UITableViewCell"
+  },
+  {
+   "name": "_TtC12OnionBrowser13SceneDelegate",
+   "super": "UIResponder",
+   "methods": [
+    [
+     "window",
+     "@16@0:8"
+    ],
+    [
+     "setWindow:",
+     "v24@0:8@16"
+    ],
+    [
+     "browsingUi",
+     "@16@0:8"
+    ],
+    [
+     "setBrowsingUi:",
+     "v24@0:8@16"
+    ],
+    [
+     "scene:willConnectToSession:options:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "sceneDidBecomeActive:",
+     "v24@0:8@16"
+    ],
+    [
+     "windowScene:performActionForShortcutItem:completionHandler:",
+     "v40@0:8@16@24@?32"
+    ],
+    [
+     "scene:openURLContexts:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "sceneWillResignActive:",
+     "v24@0:8@16"
+    ],
+    [
+     "sceneDidDisconnect:",
+     "v24@0:8@16"
+    ],
+    [
+     "stateRestorationActivityForScene:",
+     "@24@0:8@16"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "window",
+     "T@\"UIWindow\",N,&,Vwindow"
+    ],
+    [
+     "browsingUi",
+     "T@\"_TtC12OnionBrowser22BrowsingViewController\",N,&"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "SceneDelegate",
+   "super_resolved": "UIResponder"
+  },
+  {
+   "name": "_TtC12OnionBrowser8NcFolder",
+   "super": "Codable",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "NcFolder",
+   "super_resolved": "Codable"
+  },
+  {
+   "name": "_TtC12OnionBrowser25CertificateViewController",
+   "super": "UITableViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "numberOfSectionsInTableView:",
+     "q24@0:8@16"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:titleForHeaderInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "done",
+     "v16@0:8"
+    ],
+    [
+     "initWithStyle:",
+     "@24@0:8q16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "CertificateViewController",
+   "super_resolved": "UITableViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser27SecurityPopUpViewController",
+   "super": "UIViewController",
+   "methods": [
+    [
+     "headerLb",
+     "@16@0:8"
+    ],
+    [
+     "setHeaderLb:",
+     "v24@0:8@16"
+    ],
+    [
+     "tableView",
+     "@16@0:8"
+    ],
+    [
+     "setTableView:",
+     "v24@0:8@16"
+    ],
+    [
+     "customizeBt",
+     "@16@0:8"
+    ],
+    [
+     "setCustomizeBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "learnMoreBt",
+     "@16@0:8"
+    ],
+    [
+     "setLearnMoreBt:",
+     "v24@0:8@16"
+    ],
+    [
+     "preferredContentSize",
+     "{CGSize=dd}16@0:8"
+    ],
+    [
+     "setPreferredContentSize:",
+     "v32@0:8{CGSize=dd}16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:heightForRowAtIndexPath:",
+     "d32@0:8@16@24"
+    ],
+    [
+     "tableView:willSelectRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "adaptivePresentationStyleForPresentationController:",
+     "q24@0:8@16"
+    ],
+    [
+     "customize",
+     "v16@0:8"
+    ],
+    [
+     "learnMore",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "headerLb",
+     "T@\"UILabel\",N,W,VheaderLb"
+    ],
+    [
+     "tableView",
+     "T@\"UITableView\",N,W,VtableView"
+    ],
+    [
+     "customizeBt",
+     "T@\"UIButton\",N,W,VcustomizeBt"
+    ],
+    [
+     "learnMoreBt",
+     "T@\"UIButton\",N,W,VlearnMoreBt"
+    ],
+    [
+     "preferredContentSize",
+     "T{CGSize=dd},N"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "SecurityPopUpViewController",
+   "super_resolved": "UIViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowser18SyncViewController",
+   "super": "_TtC12OnionBrowser23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "SyncViewController",
+   "super_resolved": "_TtC12OnionBrowser23FixedFormViewController"
+  },
+  {
+   "name": "_TtC12OnionBrowserP33_706EA45DFF7E05B87BCD268F283213B419ResourceBundleClass",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_706EA45DFF7E05B87BCD268F283213B419ResourceBundleClass",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC14IPtProxyUI_iOS25BridgesConfViewController",
+   "super": "_TtC20IPtProxyUI_iOS_AppEx23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "navigationController:willShowViewController:animated:",
+     "v36@0:8@16@24B32"
+    ],
+    [
+     "save",
+     "v16@0:8"
+    ],
+    [
+     "resetCountryLocalization",
+     "v16@0:8"
+    ],
+    [
+     "cancel",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "BridgesConfViewController",
+   "super_resolved": "_TtC20IPtProxyUI_iOS_AppEx23FixedFormViewController"
+  },
+  {
+   "name": "_TtC14IPtProxyUI_iOS27CustomBridgesViewController",
+   "super": "_TtC20IPtProxyUI_iOS_AppEx23FixedFormViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "imagePickerController:didFinishPickingMediaWithInfo:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "imagePickerControllerDidCancel:",
+     "v24@0:8@16"
+    ],
+    [
+     "mailComposeController:didFinishWithResult:error:",
+     "v40@0:8@16q24@32"
+    ],
+    [
+     "scannedWithBridges:",
+     "v24@0:8@16"
+    ],
+    [
+     "scannedWithError:",
+     "v24@0:8@16"
+    ],
+    [
+     "save",
+     "v16@0:8"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "CustomBridgesViewController",
+   "super_resolved": "_TtC20IPtProxyUI_iOS_AppEx23FixedFormViewController"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_SharedP33_44950D1CB2DE26CB7D19656282D50D5012BundleFinder",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_44950D1CB2DE26CB7D19656282D50D5012BundleFinder",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared8AutoConf",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "AutoConf",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared14BuiltInBridges",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "BuiltInBridges",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared6Bridge",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Bridge",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared6Bridge7Builder",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared6Bridge7Builder",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared7DnsInfo",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "DnsInfo",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared9DnsServer",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "DnsServer",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared9Constants",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Constants",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared7Country",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Country",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared7Helpers",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Helpers",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared9IpSupport",
+   "super": "NSObject",
+   "methods": [
+    [
+     "reachabilityChanged",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "IpSupport",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared4L10n",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "L10n",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared7MoatApi",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "MoatApi",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi4Body",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi4Body",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi6Errors",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi6Errors",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi9MoatError",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi9MoatError",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi12FetchRequest",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi12FetchRequest",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi13FetchResponse",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi13FetchResponse",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi12CheckRequest",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi12CheckRequest",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi13CheckResponse",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi13CheckResponse",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi15SettingsRequest",
+   "super": "_TtCC17IPtProxyUI_Shared7MoatApi4Body",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi15SettingsRequest",
+   "super_resolved": "_TtCC17IPtProxyUI_Shared7MoatApi4Body"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi16SettingsResponse",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi16SettingsResponse",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi7Setting",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi7Setting",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC17IPtProxyUI_Shared7MoatApi6Bridge",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCC17IPtProxyUI_Shared7MoatApi6Bridge",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared8OnDemand",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "OnDemand",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared12Reachability",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Reachability",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_SharedP33_4A132270E622D8855CBFFCA02C34CBEA21ReachabilityWeakifier",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_4A132270E622D8855CBFFCA02C34CBEA21ReachabilityWeakifier",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC17IPtProxyUI_Shared8Settings",
+   "super": "IPtProxyUI_Shared.Settings",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Settings",
+   "super_resolved": "IPtProxyUI_Shared.Settings"
+  },
+  {
+   "name": "_TtCO17IPtProxyUI_Shared9TransportP33_7CA1B806E7A5BDE75D41FFEEFF8AF89E15StatusCollector",
+   "super": "NSObject",
+   "methods": [
+    [
+     "stopped:error:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "connected:",
+     "v24@0:8@16"
+    ],
+    [
+     "error:error:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_TtCO17IPtProxyUI_Shared9TransportP33_7CA1B806E7A5BDE75D41FFEEFF8AF89E15StatusCollector",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "_TtC6Eureka7BaseRow",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "BaseRow",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "EurekaBaseCell",
+   "super": "UITableViewCell",
+   "methods": [
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "initWithStyle:reuseIdentifier:",
+     "@32@0:8q16@24"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "EurekaBaseCell",
+   "super_resolved": "?external(ordinal 1593)"
+  },
+  {
+   "name": "_TtC6Eureka11RowDefaults",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "RowDefaults",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "EurekaFormViewController",
+   "super": "UITableViewController",
+   "methods": [
+    [
+     "navigationDone",
+     "v16@0:8"
+    ],
+    [
+     "navigationPrevious",
+     "v16@0:8"
+    ],
+    [
+     "navigationNext",
+     "v16@0:8"
+    ],
+    [
+     "pressesBegan:withEvent:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "keyboardWillShow:",
+     "v24@0:8@16"
+    ],
+    [
+     "keyboardWillHide:",
+     "v24@0:8@16"
+    ],
+    [
+     "scrollViewWillBeginDragging:",
+     "v24@0:8@16"
+    ],
+    [
+     "numberOfSectionsInTableView:",
+     "q24@0:8@16"
+    ],
+    [
+     "tableView:numberOfRowsInSection:",
+     "q32@0:8@16q24"
+    ],
+    [
+     "tableView:cellForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:titleForHeaderInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:titleForFooterInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "sectionIndexTitlesForTableView:",
+     "@24@0:8@16"
+    ],
+    [
+     "tableView:sectionForSectionIndexTitle:atIndex:",
+     "q40@0:8@16@24q32"
+    ],
+    [
+     "tableView:willSelectRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:didSelectRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "tableView:heightForRowAtIndexPath:",
+     "d32@0:8@16@24"
+    ],
+    [
+     "tableView:estimatedHeightForRowAtIndexPath:",
+     "d32@0:8@16@24"
+    ],
+    [
+     "tableView:viewForHeaderInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:viewForFooterInSection:",
+     "@32@0:8@16q24"
+    ],
+    [
+     "tableView:heightForHeaderInSection:",
+     "d32@0:8@16q24"
+    ],
+    [
+     "tableView:heightForFooterInSection:",
+     "d32@0:8@16q24"
+    ],
+    [
+     "tableView:canEditRowAtIndexPath:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "tableView:commitEditingStyle:forRowAtIndexPath:",
+     "v40@0:8@16q24@32"
+    ],
+    [
+     "tableView:canMoveRowAtIndexPath:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:",
+     "@40@0:8@16@24@32"
+    ],
+    [
+     "tableView:moveRowAtIndexPath:toIndexPath:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "tableView:editingStyleForRowAtIndexPath:",
+     "q32@0:8@16@24"
+    ],
+    [
+     "tableView:shouldIndentWhileEditingRowAtIndexPath:",
+     "B32@0:8@16@24"
+    ],
+    [
+     "tableView:leadingSwipeActionsConfigurationForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView:editActionsForRowAtIndexPath:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "tableView",
+     "@16@0:8"
+    ],
+    [
+     "setTableView:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewWillAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "prepareForSegue:sender:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "tableView:willBeginReorderingRowAtIndexPath:",
+     "v32@0:8@16@24"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "tableView",
+     "T@\"UITableView\",N,&,VtableView"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "EurekaFormViewController",
+   "super_resolved": "?external(ordinal 1612)"
+  },
+  {
+   "name": "_TtC6Eureka4Form",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Form",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtCC6Eureka4Form10KVOWrapper",
+   "super": "NSObject",
+   "methods": [
+    [
+     "_sections",
+     "@16@0:8"
+    ],
+    [
+     "set_sections:",
+     "v24@0:8@16"
+    ],
+    [
+     "dealloc",
+     "v16@0:8"
+    ],
+    [
+     "observeValueForKeyPath:ofObject:change:context:",
+     "v48@0:8@16@24@32^v40"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "_sections",
+     "T@\"NSMutableArray\",N,&,V_sections"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "_TtCC6Eureka4Form10KVOWrapper",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "EurekaNavigationAccessoryView",
+   "super": "UIView",
+   "methods": [
+    [
+     "initWithFrame:",
+     "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "touchesBegan:withEvent:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "didTapDone",
+     "v16@0:8"
+    ],
+    [
+     "didTapNext",
+     "v16@0:8"
+    ],
+    [
+     "didTapPrevious",
+     "v16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "EurekaNavigationAccessoryView",
+   "super_resolved": "?external(ordinal 1724)"
+  },
+  {
+   "name": "_TtCC6Eureka7Section10KVOWrapper",
+   "super": "NSObject",
+   "methods": [
+    [
+     "_rows",
+     "@16@0:8"
+    ],
+    [
+     "set_rows:",
+     "v24@0:8@16"
+    ],
+    [
+     "dealloc",
+     "v16@0:8"
+    ],
+    [
+     "observeValueForKeyPath:ofObject:change:context:",
+     "v48@0:8@16@24@32^v40"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "_rows",
+     "T@\"NSMutableArray\",N,&,V_rows"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "_TtCC6Eureka7Section10KVOWrapper",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "_TtC6Eureka7Section",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "Section",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC6Eureka22BaseMultivaluedSection",
+   "super": "_TtC6Eureka7Section",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "BaseMultivaluedSection",
+   "super_resolved": "_TtC6Eureka7Section"
+  },
+  {
+   "name": "_TtC6Eureka11SwipeAction",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "SwipeAction",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC6Eureka16DecimalFormatter",
+   "super": "?external(ordinal 1632)",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "getObjectValue:forString:range:error:",
+     "B48@0:8^@16@24^{_NSRange=QQ}32^@40"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "DecimalFormatter",
+   "super_resolved": "?external(ordinal 1632)"
+  },
+  {
+   "name": "_TtC6Eureka9RuleEmail",
+   "super": "_TtC6Eureka10RuleRegExp",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "RuleEmail",
+   "super_resolved": "_TtC6Eureka10RuleRegExp"
+  },
+  {
+   "name": "_TtC6Eureka10RuleRegExp",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "RuleRegExp",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC20IPtProxyUI_iOS_AppEx11AlertHelper",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "AlertHelper",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC20IPtProxyUI_iOS_AppEx22BaseScanViewController",
+   "super": "UITableViewController",
+   "methods": [
+    [
+     "viewWillDisappear:",
+     "v20@0:8B16"
+    ],
+    [
+     "captureOutput:didOutputMetadataObjects:fromConnection:",
+     "v40@0:8@16@24@32"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "BaseScanViewController",
+   "super_resolved": "?external(ordinal 1612)"
+  },
+  {
+   "name": "_TtC20IPtProxyUI_iOS_AppEx23FixedFormViewController",
+   "super": "EurekaFormViewController",
+   "methods": [
+    [
+     "keyboardWillShow:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "FixedFormViewController",
+   "super_resolved": "EurekaFormViewController"
+  },
+  {
+   "name": "_TtC20IPtProxyUI_iOS_AppEx20ScanQrViewController",
+   "super": "_TtC20IPtProxyUI_iOS_AppEx22BaseScanViewController",
+   "methods": [
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "viewDidAppear:",
+     "v20@0:8B16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "ScanQrViewController",
+   "super_resolved": "_TtC20IPtProxyUI_iOS_AppEx22BaseScanViewController"
+  },
+  {
+   "name": "_TtC11ProgressHUDP33_9ABE1711070ADE038BFFDAEC45D4730612BundleFinder",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "_9ABE1711070ADE038BFFDAEC45D4730612BundleFinder",
+   "super_resolved": "?external(ordinal 1731)"
+  },
+  {
+   "name": "_TtC11ProgressHUD11ProgressHUD",
+   "super": "UIView",
+   "methods": [
+    [
+     "setupPosition:",
+     "v24@0:8@16"
+    ],
+    [
+     "hideBanner",
+     "v16@0:8"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "initWithFrame:",
+     "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "ProgressHUD",
+   "super_resolved": "?external(ordinal 1565)"
+  },
+  {
+   "name": "_TtC11ProgressHUD12ProgressView",
+   "super": "UIView",
+   "methods": [
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     "initWithFrame:",
+     "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+    ],
+    [
+     "drawRect:",
+     "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "ProgressView",
+   "super_resolved": "?external(ordinal 1565)"
+  },
+  {
+   "name": "_TtC8ImageRow21ImagePickerController",
+   "super": "?external(ordinal 1708)",
+   "methods": [
+    [
+     "preferredStatusBarStyle",
+     "q16@0:8"
+    ],
+    [
+     "viewDidLoad",
+     "v16@0:8"
+    ],
+    [
+     "imagePickerController:didFinishPickingMediaWithInfo:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "imagePickerControllerDidCancel:",
+     "v24@0:8@16"
+    ],
+    [
+     "initWithNavigationBarClass:toolbarClass:",
+     "@32@0:8#16#24"
+    ],
+    [
+     "initWithRootViewController:",
+     "@24@0:8@16"
+    ],
+    [
+     "initWithNibName:bundle:",
+     "@32@0:8@16@24"
+    ],
+    [
+     "initWithCoder:",
+     "@24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "preferredStatusBarStyle",
+     "Tq,N,R"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "ImagePickerController",
+   "super_resolved": "?external(ordinal 1708)"
+  },
+  {
+   "name": "IPtProxyController",
+   "super": "NSObject",
+   "methods": [
+    [
+     "initWithRef:",
+     "@24@0:8@16"
+    ],
+    [
+     "init:enableLogging:unsafeLogging:logLevel:transportEvents:",
+     "@48@0:8@16B24B28@32@40"
+    ],
+    [
+     "snowflakeIceServers",
+     "@16@0:8"
+    ],
+    [
+     "setSnowflakeIceServers:",
+     "v24@0:8@16"
+    ],
+    [
+     "snowflakeBrokerUrl",
+     "@16@0:8"
+    ],
+    [
+     "setSnowflakeBrokerUrl:",
+     "v24@0:8@16"
+    ],
+    [
+     "snowflakeFrontDomains",
+     "@16@0:8"
+    ],
+    [
+     "setSnowflakeFrontDomains:",
+     "v24@0:8@16"
+    ],
+    [
+     "snowflakeAmpCacheUrl",
+     "@16@0:8"
+    ],
+    [
+     "setSnowflakeAmpCacheUrl:",
+     "v24@0:8@16"
+    ],
+    [
+     "snowflakeSqsUrl",
+     "@16@0:8"
+    ],
+    [
+     "setSnowflakeSqsUrl:",
+     "v24@0:8@16"
+    ],
+    [
+     "snowflakeSqsCreds",
+     "@16@0:8"
+    ],
+    [
+     "setSnowflakeSqsCreds:",
+     "v24@0:8@16"
+    ],
+    [
+     "snowflakeMaxPeers",
+     "q16@0:8"
+    ],
+    [
+     "setSnowflakeMaxPeers:",
+     "v24@0:8q16"
+    ],
+    [
+     "localAddress:",
+     "@24@0:8@16"
+    ],
+    [
+     "port:",
+     "q24@0:8@16"
+    ],
+    [
+     "start:proxy:error:",
+     "B40@0:8@16@24^@32"
+    ],
+    [
+     "stateDir",
+     "@16@0:8"
+    ],
+    [
+     "stop:",
+     "v24@0:8@16"
+    ],
+    [
+     "_ref",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "_ref",
+     "T@,R,V__ref"
+    ],
+    [
+     "snowflakeIceServers",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "snowflakeBrokerUrl",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "snowflakeFrontDomains",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "snowflakeAmpCacheUrl",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "snowflakeSqsUrl",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "snowflakeSqsCreds",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "snowflakeMaxPeers",
+     "Tq,N"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "IPtProxyController",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "IPtProxySnowflakeProxy",
+   "super": "NSObject",
+   "methods": [
+    [
+     "initWithRef:",
+     "@24@0:8@16"
+    ],
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "capacity",
+     "q16@0:8"
+    ],
+    [
+     "setCapacity:",
+     "v24@0:8q16"
+    ],
+    [
+     "brokerUrl",
+     "@16@0:8"
+    ],
+    [
+     "setBrokerUrl:",
+     "v24@0:8@16"
+    ],
+    [
+     "relayUrl",
+     "@16@0:8"
+    ],
+    [
+     "setRelayUrl:",
+     "v24@0:8@16"
+    ],
+    [
+     "ephemeralMinPort",
+     "q16@0:8"
+    ],
+    [
+     "setEphemeralMinPort:",
+     "v24@0:8q16"
+    ],
+    [
+     "ephemeralMaxPort",
+     "q16@0:8"
+    ],
+    [
+     "setEphemeralMaxPort:",
+     "v24@0:8q16"
+    ],
+    [
+     "stunServer",
+     "@16@0:8"
+    ],
+    [
+     "setStunServer:",
+     "v24@0:8@16"
+    ],
+    [
+     "natProbeUrl",
+     "@16@0:8"
+    ],
+    [
+     "setNatProbeUrl:",
+     "v24@0:8@16"
+    ],
+    [
+     "natTypeMeasurementInterval",
+     "q16@0:8"
+    ],
+    [
+     "setNatTypeMeasurementInterval:",
+     "v24@0:8q16"
+    ],
+    [
+     "pollInterval",
+     "q16@0:8"
+    ],
+    [
+     "setPollInterval:",
+     "v24@0:8q16"
+    ],
+    [
+     "clientEvents",
+     "@16@0:8"
+    ],
+    [
+     "setClientEvents:",
+     "v24@0:8@16"
+    ],
+    [
+     "proxyTypeIdentifier",
+     "@16@0:8"
+    ],
+    [
+     "setProxyTypeIdentifier:",
+     "v24@0:8@16"
+    ],
+    [
+     "summaryInterval",
+     "q16@0:8"
+    ],
+    [
+     "setSummaryInterval:",
+     "v24@0:8q16"
+    ],
+    [
+     "covertDTLSConfig",
+     "@16@0:8"
+    ],
+    [
+     "setCovertDTLSConfig:",
+     "v24@0:8@16"
+    ],
+    [
+     "isRunning",
+     "B16@0:8"
+    ],
+    [
+     "start:",
+     "B24@0:8^@16"
+    ],
+    [
+     "stop",
+     "v16@0:8"
+    ],
+    [
+     "_ref",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "_ref",
+     "T@,R,V__ref"
+    ],
+    [
+     "capacity",
+     "Tq,N"
+    ],
+    [
+     "brokerUrl",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "relayUrl",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "ephemeralMinPort",
+     "Tq,N"
+    ],
+    [
+     "ephemeralMaxPort",
+     "Tq,N"
+    ],
+    [
+     "stunServer",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "natProbeUrl",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "natTypeMeasurementInterval",
+     "Tq,N"
+    ],
+    [
+     "pollInterval",
+     "Tq,N"
+    ],
+    [
+     "clientEvents",
+     "T@\"<IPtProxySnowflakeClientEvents>\",&,N"
+    ],
+    [
+     "proxyTypeIdentifier",
+     "T@\"NSString\",&,N"
+    ],
+    [
+     "summaryInterval",
+     "Tq,N"
+    ],
+    [
+     "covertDTLSConfig",
+     "T@\"NSString\",&,N"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "IPtProxySnowflakeProxy",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "IPtProxyOnTransportEvents",
+   "super": "NSObject",
+   "methods": [
+    [
+     "initWithRef:",
+     "@24@0:8@16"
+    ],
+    [
+     "connected:",
+     "v24@0:8@16"
+    ],
+    [
+     "error:error:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "stopped:error:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "_ref",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "_ref",
+     "T@,R,V__ref"
+    ],
+    [
+     "hash",
+     "TQ,R"
+    ],
+    [
+     "superclass",
+     "T#,R"
+    ],
+    [
+     "description",
+     "T@\"NSString\",R,C"
+    ],
+    [
+     "debugDescription",
+     "T@\"NSString\",?,R,C"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "IPtProxyOnTransportEvents",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "IPtProxySnowflakeClientEvents",
+   "super": "NSObject",
+   "methods": [
+    [
+     "initWithRef:",
+     "@24@0:8@16"
+    ],
+    [
+     "connected",
+     "v16@0:8"
+    ],
+    [
+     "connectionFailed",
+     "v16@0:8"
+    ],
+    [
+     "disconnected:",
+     "v24@0:8@16"
+    ],
+    [
+     "natTypeUpdated:",
+     "v24@0:8@16"
+    ],
+    [
+     "stats:failedConnectionCount:inboundBytes:outboundBytes:inboundUnit:outboundUnit:summaryInterval:",
+     "v72@0:8q16q24q32q40@48@56q64"
+    ],
+    [
+     "_ref",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "_ref",
+     "T@,R,V__ref"
+    ],
+    [
+     "hash",
+     "TQ,R"
+    ],
+    [
+     "superclass",
+     "T#,R"
+    ],
+    [
+     "description",
+     "T@\"NSString\",R,C"
+    ],
+    [
+     "debugDescription",
+     "T@\"NSString\",?,R,C"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "IPtProxySnowflakeClientEvents",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "Universeerror",
+   "super": "NSObject",
+   "methods": [
+    [
+     "initWithRef:",
+     "@24@0:8@16"
+    ],
+    [
+     "error",
+     "@16@0:8"
+    ],
+    [
+     "_ref",
+     "@16@0:8"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "_ref",
+     "T@,R,V__ref"
+    ],
+    [
+     "hash",
+     "TQ,R"
+    ],
+    [
+     "superclass",
+     "T#,R"
+    ],
+    [
+     "description",
+     "T@\"NSString\",R,C"
+    ],
+    [
+     "debugDescription",
+     "T@\"NSString\",?,R,C"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "Universeerror",
+   "super_resolved": "?external(ordinal 1725)"
+  },
+  {
+   "name": "goSeqDictionary",
+   "super": "NSObject",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "get:",
+     "@24@0:8@16"
+    ],
+    [
+     "put:withKey:",
+     "v32@0:8@16@24"
+    ],
+    [
+     "dict",
+     "@16@0:8"
+    ],
+    [
+     "setDict:",
+     "v24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "dict",
+     "T@\"NSMutableDictionary\",&,V_dict"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "goSeqDictionary",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "GoSeqRef",
+   "super": "NSObject",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "incNum",
+     "i16@0:8"
+    ],
+    [
+     "initWithRefnum:obj:",
+     "@28@0:8i16@20"
+    ],
+    [
+     "dealloc",
+     "v16@0:8"
+    ],
+    [
+     "refnum",
+     "i16@0:8"
+    ],
+    [
+     "obj",
+     "@16@0:8"
+    ],
+    [
+     "setObj:",
+     "v24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "refnum",
+     "Ti,R,V_refnum"
+    ],
+    [
+     "obj",
+     "T@,&,V_obj"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "GoSeqRef",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "RefCounter",
+   "super": "NSObject",
+   "methods": [
+    [
+     "initWithObject:",
+     "@24@0:8@16"
+    ],
+    [
+     "obj",
+     "@16@0:8"
+    ],
+    [
+     "cnt",
+     "i16@0:8"
+    ],
+    [
+     "setCnt:",
+     "v20@0:8i16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [
+    [
+     "obj",
+     "T@,R,V_obj"
+    ],
+    [
+     "cnt",
+     "Ti,V_cnt"
+    ]
+   ],
+   "is_meta": false,
+   "short_name": "RefCounter",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "RefTracker",
+   "super": "NSObject",
+   "methods": [
+    [
+     "init",
+     "@16@0:8"
+    ],
+    [
+     "dec:",
+     "v20@0:8i16"
+    ],
+    [
+     "inc:",
+     "v20@0:8i16"
+    ],
+    [
+     "get:",
+     "@20@0:8i16"
+    ],
+    [
+     "assignRefnumAndIncRefcount:",
+     "i24@0:8@16"
+    ],
+    [
+     ".cxx_destruct",
+     "v16@0:8"
+    ]
+   ],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "RefTracker",
+   "super_resolved": "?external(ordinal 1633)"
+  },
+  {
+   "name": "PodsDummy_Pods_OnionBrowser",
+   "super": "NSObject",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false,
+   "short_name": "PodsDummy_Pods_OnionBrowser",
+   "super_resolved": "?external(ordinal 1633)"
   }
  ],
  "categories": []
