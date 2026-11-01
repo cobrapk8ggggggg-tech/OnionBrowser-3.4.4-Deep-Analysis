@@ -1,0 +1,351 @@
+{
+ "total_source": 68,
+ "total_binary": 127,
+ "in_both": 62,
+ "only_in_source": [
+  "Entity",
+  "FavIconCell",
+  "FavIconRow",
+  "SecurityPresetsCell",
+  "SecurityPresetsRow",
+  "UrlBlocker"
+ ],
+ "only_in_binary": [
+  "AlertHelper",
+  "AutoConf",
+  "BaseMultivaluedSection",
+  "BaseRow",
+  "BaseScanViewController",
+  "Bridge",
+  "BridgesConfViewController",
+  "BuiltInBridges",
+  "Constants",
+  "Country",
+  "CustomBridgesViewController",
+  "DecimalFormatter",
+  "DnsInfo",
+  "DnsServer",
+  "EurekaBaseCell",
+  "EurekaFormViewController",
+  "EurekaNavigationAccessoryView",
+  "Form",
+  "GoSeqRef",
+  "Helpers",
+  "IPtProxyController",
+  "IPtProxyOnTransportEvents",
+  "IPtProxySnowflakeClientEvents",
+  "IPtProxySnowflakeProxy",
+  "ImagePickerController",
+  "IpSupport",
+  "L10n",
+  "Log",
+  "MoatApi",
+  "OnDemand",
+  "PodsDummy_Pods_OnionBrowser",
+  "ProgressHUD",
+  "ProgressView",
+  "Reachability",
+  "RefCounter",
+  "RefTracker",
+  "RowDefaults",
+  "RuleEmail",
+  "RuleRegExp",
+  "ScanQrViewController",
+  "Section",
+  "SwipeAction",
+  "TlsCertificateEntity",
+  "URLBlocker",
+  "Universeerror",
+  "_44950D1CB2DE26CB7D19656282D50D5012BundleFinder",
+  "_4A132270E622D8855CBFFCA02C34CBEA21ReachabilityWeakifier",
+  "_706EA45DFF7E05B87BCD268F283213B419ResourceBundleClass",
+  "_9ABE1711070ADE038BFFDAEC45D4730612BundleFinder",
+  "_TtCC17IPtProxyUI_Shared6Bridge7Builder",
+  "_TtCC17IPtProxyUI_Shared7MoatApi12CheckRequest",
+  "_TtCC17IPtProxyUI_Shared7MoatApi12FetchRequest",
+  "_TtCC17IPtProxyUI_Shared7MoatApi13CheckResponse",
+  "_TtCC17IPtProxyUI_Shared7MoatApi13FetchResponse",
+  "_TtCC17IPtProxyUI_Shared7MoatApi15SettingsRequest",
+  "_TtCC17IPtProxyUI_Shared7MoatApi16SettingsResponse",
+  "_TtCC17IPtProxyUI_Shared7MoatApi4Body",
+  "_TtCC17IPtProxyUI_Shared7MoatApi6Bridge",
+  "_TtCC17IPtProxyUI_Shared7MoatApi6Errors",
+  "_TtCC17IPtProxyUI_Shared7MoatApi7Setting",
+  "_TtCC17IPtProxyUI_Shared7MoatApi9MoatError",
+  "_TtCC6Eureka4Form10KVOWrapper",
+  "_TtCC6Eureka7Section10KVOWrapper",
+  "_TtCO17IPtProxyUI_Shared9TransportP33_7CA1B806E7A5BDE75D41FFEEFF8AF89E15StatusCollector",
+  "goSeqDictionary"
+ ],
+ "only_in_binary_normalized": {
+  "AlertHelper": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "AutoConf": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "BaseMultivaluedSection": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "BaseRow": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "BaseScanViewController": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Bridge": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "BridgesConfViewController": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "BuiltInBridges": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Constants": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Country": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "CustomBridgesViewController": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "DecimalFormatter": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "DnsInfo": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "DnsServer": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "EurekaBaseCell": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "EurekaFormViewController": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "EurekaNavigationAccessoryView": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Form": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "GoSeqRef": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Helpers": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "IPtProxyController": {
+   "count": 1,
+   "origin": "⚠️ يحتاج مراجعة"
+  },
+  "IPtProxyOnTransportEvents": {
+   "count": 1,
+   "origin": "⚠️ يحتاج مراجعة"
+  },
+  "IPtProxySnowflakeClientEvents": {
+   "count": 1,
+   "origin": "⚠️ يحتاج مراجعة"
+  },
+  "IPtProxySnowflakeProxy": {
+   "count": 1,
+   "origin": "⚠️ يحتاج مراجعة"
+  },
+  "ImagePickerController": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "IpSupport": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "L10n": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Log": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "OnDemand": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "PodsDummy_Pods_OnionBrowser": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "ProgressHUD": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "ProgressView": {
+   "count": 1,
+   "origin": "⚠️ يحتاج مراجعة"
+  },
+  "Reachability": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "RefCounter": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "RefTracker": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "RowDefaults": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "RuleEmail": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "RuleRegExp": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "ScanQrViewController": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Section": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "SwipeAction": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "TlsCertificateEntity": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "URLBlocker": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Universeerror": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "_44950D1CB2DE26CB7D19656282D50D5012BundleFinder": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "_4A132270E622D8855CBFFCA02C34CBEA21ReachabilityWeakifier": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "_706EA45DFF7E05B87BCD268F283213B419ResourceBundleClass": {
+   "count": 1,
+   "origin": "⚠️ يحتاج مراجعة"
+  },
+  "_9ABE1711070ADE038BFFDAEC45D4730612BundleFinder": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Bridge.Builder": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi1.CheckRequest": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi1.FetchRequest": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi1.CheckResponse": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi1.FetchResponse": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi1.SettingsRequest": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi1.SettingsResponse": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi.Body": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi.Bridge": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi.Errors": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi.Setting": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "MoatApi.MoatError": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Form1.KVOWrapper": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Section1.KVOWrapper": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  },
+  "Transport.(anonymous enum)": {
+   "count": 1,
+   "origin": "⚠️ يحتاج مراجعة"
+  },
+  "goSeqDictionary": {
+   "count": 1,
+   "origin": "CocoaPods/مكتبة (متوقع)"
+  }
+ },
+ "unexplained_in_binary": [
+  "IPtProxyController",
+  "IPtProxyOnTransportEvents",
+  "IPtProxySnowflakeClientEvents",
+  "IPtProxySnowflakeProxy",
+  "ProgressView",
+  "_706EA45DFF7E05B87BCD268F283213B419ResourceBundleClass",
+  "_TtCO17IPtProxyUI_Shared9TransportP33_7CA1B806E7A5BDE75D41FFEEFF8AF89E15StatusCollector"
+ ]
+}
