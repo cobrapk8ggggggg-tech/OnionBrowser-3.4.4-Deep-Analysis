@@ -40,9 +40,10 @@ jobs:
           binary = json.load(open('class-dump/objc_classes.json'))
           bclasses = {}
           for c in binary['classes']:
-              m = re.match(r'_TtC\d+\w+?(\d+)(\w+)$', c['name'])
+              name = c.get('short_name') or c['name']
+              m = re.match(r'_TtC\d+\w+?(\d+)(\w+)$', name)
               if m: bclasses[m.group(2)] = c
-              else: bclasses[c['name']] = c
+              else: bclasses[name] = c
           only_source = sorted(set(src) - set(bclasses))
           only_binary = sorted(set(bclasses) - set(src))
           match = sorted(set(src) & set(bclasses))
