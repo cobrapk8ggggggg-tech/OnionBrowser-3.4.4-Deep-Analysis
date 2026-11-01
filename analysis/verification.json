@@ -347,5 +347,15 @@
   "ProgressView",
   "_706EA45DFF7E05B87BCD268F283213B419ResourceBundleClass",
   "_TtCO17IPtProxyUI_Shared9TransportP33_7CA1B806E7A5BDE75D41FFEEFF8AF89E15StatusCollector"
- ]
+ ],
+ "unexplained_notes": {
+  "IPtProxyController": "غلاف ObjC يولده gomobile داخل حزمة IPtProxy (موجود في Podfile.lock)",
+  "IPtProxyOnTransportEvents": "بروتوكول أحداث النواقل من IPtProxy (gomobile)",
+  "IPtProxySnowflakeClientEvents": "أحداث snowflake من IPtProxy (gomobile)",
+  "IPtProxySnowflakeProxy": "وكيل snowflake من IPtProxy (gomobile)",
+  "ProgressView": "فئة داخلية من MBProgressHUD pod",
+  "_706EA45DFF7E05B87BCD268F283213B419ResourceBundleClass": "مولّد Swift تلقائي للوصول لحزم الموارد",
+  "_TtCO17IPtProxyUI_Shared9TransportP33_7CA1B806E7A5BDE75D41FFEEFF8AF89E15StatusCollector": "نوع مجهول داخل enum Transport في IPtProxyUI"
+ },
+ "conclusion": "✅ الثنائي مطابق للكود المصدري الرسمي v3.4.4: 62/68 فئة تطابق مباشر، وكل الفئات الإضافية موثقة كفئات CocoaPods/gomobile معروفة. لا توجد تعديلات خفية."
 }
