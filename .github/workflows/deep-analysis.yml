@@ -72,20 +72,11 @@ jobs:
             python tools/objc_dump.py "$BIN" reports/class-dump
           fi
 
-      - name: Entitlements & Info.plist extraction
+      - name: Entitlements extraction
         run: |
-          BIN=$(find work/extracted -name OnionBrowser -type f 2>/dev/null | head -1)
+          BIN=$(find work/extracted -name OnionBrowser -type f 2>/dev/null | head -1 || true)
           if [ -n "$BIN" ]; then
-            python3 - <<'PY'
-            import sys
-            data = open(sys.argv[1], 'rb').read()
-            idx = data.find(b'<?xml version="1.0"')
-            if idx != -1:
-                end = data.find(b'</plist>', idx) + 8
-                open('reports/entitlements.xml', 'wb').write(data[idx:end])
-                print(data[idx:end].decode())
-            PY
-            "$BIN" --info 2>/dev/null || true
+            python3 tools/extract_entitlements.py "$BIN" reports/entitlements.xml || true
           fi
 
       - name: Upload analysis reports
@@ -106,6 +97,8 @@ jobs:
           git diff --cached --quiet || git commit -m "🤖 CI: تحديث تقارير التحليل الآلي [skip ci]"
           git push
 
-      - name: ℹ️ No IPA provided
+      - name: No IPA provided
         if: ${{ hashFiles('reports/**') == '' }}
-        run: echo "لم يتم تزويد ملف IPA — أعد التشغيل مع input ipa_url أو ضع الملف في مجلد ipa-file/
+        run: |
+          echo 'لم يتم تزويد ملف IPA — أعد التشغيل مع input ipa_url أو ضع الملف في مجلد ipa-file/'
+          echo 'Reports are empty; skipping upload/commit steps.'
