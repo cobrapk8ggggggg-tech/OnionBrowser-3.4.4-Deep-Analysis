@@ -1,0 +1,21 @@
+{
+ "classes": [
+  {
+   "name": "PodsDummy_OrbotKit",
+   "super": "BIND:256",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false
+  },
+  {
+   "name": "_TtC8OrbotKit8OrbotKit",
+   "super": "BIND:258",
+   "methods": [],
+   "ivars": [],
+   "props": [],
+   "is_meta": false
+  }
+ ],
+ "categories": []
+}

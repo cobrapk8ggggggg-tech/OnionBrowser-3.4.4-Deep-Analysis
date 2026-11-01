@@ -1,0 +1,65 @@
+name: ⚙️ Cross-Verify Binary vs Source
+
+# يقارن تفريغ الفئات المستخرج من الثنائي مع الكود المصدري الرسمي
+# للتحقق من عدم وجود تعديلات خفية على التطبيق المنشور
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Clone official source (v3.4.4)
+        run: git clone --depth 1 --branch v3.4.4 https://github.com/OnionBrowser/OnionBrowser.git src-official
+
+      - name: Extract source class inventory
+        run: |
+          mkdir -p reports
+          python3 - <<'PY'
+          import re, os, json
+          classes = {}
+          for root, _, files in os.walk('src-official/OnionBrowser'):
+              for f in files:
+                  if f.endswith('.swift'):
+                      c = open(os.path.join(root, f), encoding='utf-8', errors='ignore').read()
+                      for m in re.finditer(r'class (\w+)\s*:\s*([^{]+)', c):
+                          classes[m.group(1)] = m.group(2).split(',')[0].strip()
+                      for m in re.finditer(r'^class (\w+)\s*\{', c, re.M):
+                          classes.setdefault(m.group(1), 'NSObject')
+          json.dump(classes, open('reports/source_classes.json', 'w'), indent=1)
+          print(f'Source classes: {len(classes)}')
+          PY
+
+      - name: Compare with binary dump
+        run: |
+          python3 - <<'PY'
+          import json, re
+          src = json.load(open('reports/source_classes.json'))
+          binary = json.load(open('class-dump/objc_classes.json'))
+          bclasses = {}
+          for c in binary['classes']:
+              m = re.match(r'_TtC\d+\w+?(\d+)(\w+)$', c['name'])
+              if m: bclasses[m.group(2)] = c
+              else: bclasses[c['name']] = c
+          only_source = sorted(set(src) - set(bclasses))
+          only_binary = sorted(set(bclasses) - set(src))
+          match = sorted(set(src) & set(bclasses))
+          report = {
+              'total_source': len(src), 'total_binary': len(bclasses),
+              'in_both': len(match),
+              'only_in_source': only_source,
+              'only_in_binary': only_binary,
+          }
+          json.dump(report, open('reports/verification.json', 'w'), indent=1)
+          print(f"مطابقة: {len(match)} فئة | فقط في المصدر: {len(only_source)} | فقط في الثنائي: {len(only_binary)}")
+          print("⚠️ الفئات التي في الثنائي فقط قد تشير إلى تعديل محتمل!")
+          for c in only_binary[:30]: print('  ⚠️', c)
+          PY
+
+      - name: Upload verification report
+        uses: actions/upload-artifact@v4
+        with:
+          name: binary-vs-source-verification
+          path: reports/

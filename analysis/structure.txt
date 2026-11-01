@@ -1,0 +1,434 @@
+ipa/
+Payload/
+  OnionBrowser.app/
+    AppIcon60x60@2x.png (22,706 bytes)
+    AppIcon76x76@2x~ipad.png (32,180 bytes)
+    Assets.car (17,427,768 bytes)
+    BlocklistViewController.nib (4,904 bytes)
+    BookmarkCell.nib (3,863 bytes)
+    BookmarksViewController.nib (3,521 bytes)
+    BrowsingViewController-iPad.nib (14,734 bytes)
+    BrowsingViewController.nib (13,596 bytes)
+    CircuitNodeCell.nib (4,446 bytes)
+    CircuitViewController.nib (8,369 bytes)
+    FavIconCell.nib (2,497 bytes)
+    Info.plist (5,829 bytes)
+    InstallViewController.nib (10,935 bytes)
+    OnionBrowser (26,015,008 bytes)
+    OrbotOrBuiltInViewController.nib (11,573 bytes)
+    PermissionViewController.nib (12,221 bytes)
+    PkgInfo (8 bytes)
+    PrivacyInfo.xcprivacy (896 bytes)
+    SearchEngines.plist (1,079 bytes)
+    SecurityLevelCell.nib (7,671 bytes)
+    SecurityPopUpViewController.nib (5,955 bytes)
+    StartOrbotViewController.nib (10,577 bytes)
+    StartTorViewController.nib (10,402 bytes)
+    TabCell.nib (5,436 bytes)
+    WelcomeViewController.nib (8,554 bytes)
+    WhyViewController.nib (15,156 bytes)
+    content-rules.json (108 bytes)
+    credits.html (19,655 bytes)
+    light-onlydomains.txt (1,370,890 bytes)
+    security-levels.html (12,102 bytes)
+    start.html (10,324 bytes)
+    ua-strings.plist (387 bytes)
+    nb.lproj/
+      InfoPlist.strings (546 bytes)
+      Localizable.strings (13,359 bytes)
+    he.lproj/
+      InfoPlist.strings (588 bytes)
+      Localizable.strings (15,441 bytes)
+      Localizable.stringsdict (273 bytes)
+      SecurityLevels.strings (3,460 bytes)
+    Launch Screen.storyboardc/
+      01J-lp-oVM-view-Ze5-6b-2t3.nib (3,019 bytes)
+      Info.plist (258 bytes)
+      UIViewController-01J-lp-oVM.nib (924 bytes)
+    ar.lproj/
+      InfoPlist.strings (660 bytes)
+      Localizable.strings (20,882 bytes)
+      Localizable.stringsdict (332 bytes)
+      SecurityLevels.strings (4,271 bytes)
+    tr-TR.lproj/
+      InfoPlist.strings (706 bytes)
+      Localizable.strings (25,391 bytes)
+      Localizable.stringsdict (270 bytes)
+      SecurityLevels.strings (5,030 bytes)
+    ca.lproj/
+      InfoPlist.strings (735 bytes)
+      Localizable.strings (21,088 bytes)
+      Localizable.stringsdict (249 bytes)
+      SecurityLevels.strings (4,846 bytes)
+    ro.lproj/
+      InfoPlist.strings (661 bytes)
+      Localizable.strings (17,906 bytes)
+      Localizable.stringsdict (259 bytes)
+      SecurityLevels.strings (5,172 bytes)
+    _CodeSignature/
+      CodeResources (139,624 bytes)
+    it.lproj/
+      InfoPlist.strings (478 bytes)
+      Localizable.strings (14,656 bytes)
+      Localizable.stringsdict (246 bytes)
+      SecurityLevels.strings (4,466 bytes)
+    Metadata.appintents/
+      extract.actionsdata (27,103 bytes)
+      version.json (53 bytes)
+    uk.lproj/
+      InfoPlist.strings (664 bytes)
+      Localizable.strings (20,814 bytes)
+      Localizable.stringsdict (291 bytes)
+      SecurityLevels.strings (4,977 bytes)
+    sq.lproj/
+      InfoPlist.strings (724 bytes)
+      Localizable.strings (25,073 bytes)
+      Localizable.stringsdict (249 bytes)
+      SecurityLevels.strings (5,122 bytes)
+    fr.lproj/
+      InfoPlist.strings (751 bytes)
+      Localizable.strings (26,358 bytes)
+      Localizable.stringsdict (276 bytes)
+      SecurityLevels.strings (5,519 bytes)
+    ja.lproj/
+      InfoPlist.strings (454 bytes)
+      Localizable.strings (17,526 bytes)
+      Localizable.stringsdict (253 bytes)
+      SecurityLevels.strings (3,453 bytes)
+    pl.lproj/
+      InfoPlist.strings (650 bytes)
+      Localizable.strings (17,315 bytes)
+      Localizable.stringsdict (286 bytes)
+      SecurityLevels.strings (4,636 bytes)
+    ko.lproj/
+      InfoPlist.strings (440 bytes)
+      Localizable.strings (17,256 bytes)
+      Localizable.stringsdict (255 bytes)
+      SecurityLevels.strings (3,479 bytes)
+    IPtProxyUI_IPtProxyUI-Shared.bundle/
+      Info.plist (709 bytes)
+      builtin-bridges.json (2,261 bytes)
+      dns-ae.json (1,956 bytes)
+      dns-af.json (296 bytes)
+      dns-bd.json (6,621 bytes)
+      dns-cn.json (6,144 bytes)
+      dns-co.json (6,176 bytes)
+      dns-global.json (3,278 bytes)
+      dns-id.json (6,679 bytes)
+      dns-ir.json (140,624 bytes)
+      dns-kw.json (558 bytes)
+      dns-pk.json (2,894 bytes)
+      dns-qa.json (209 bytes)
+      dns-ru.json (6,424 bytes)
+      dns-sy.json (290 bytes)
+      dns-tr.json (3,888 bytes)
+      dns-ug.json (358 bytes)
+      dns-uz.json (2,074 bytes)
+      nb.lproj/
+        Localizable.strings (4,309 bytes)
+      he.lproj/
+        Localizable.strings (4,720 bytes)
+      ar.lproj/
+        Localizable.strings (4,946 bytes)
+      tr-TR.lproj/
+        Localizable.strings (4,552 bytes)
+      ca.lproj/
+        Localizable.strings (4,453 bytes)
+      ro.lproj/
+        Localizable.strings (4,428 bytes)
+      it.lproj/
+        Localizable.strings (4,383 bytes)
+      uk.lproj/
+        Localizable.strings (5,349 bytes)
+      sq.lproj/
+        Localizable.strings (4,393 bytes)
+      fr.lproj/
+        Localizable.strings (4,607 bytes)
+      ja.lproj/
+        Localizable.strings (4,673 bytes)
+      pl.lproj/
+        Localizable.strings (4,400 bytes)
+      ko.lproj/
+        Localizable.strings (4,626 bytes)
+      nl.lproj/
+        Localizable.strings (4,305 bytes)
+      km.lproj/
+        Localizable.strings (6,529 bytes)
+      th.lproj/
+        Localizable.strings (6,032 bytes)
+      hi.lproj/
+        Localizable.strings (5,489 bytes)
+      el.lproj/
+        Localizable.strings (4,963 bytes)
+      en.lproj/
+        Localizable.strings (4,303 bytes)
+      is.lproj/
+        Localizable.strings (4,440 bytes)
+      hr.lproj/
+        Localizable.strings (4,333 bytes)
+      zh-Hans.lproj/
+        Localizable.strings (4,322 bytes)
+      ps.lproj/
+        Localizable.strings (4,748 bytes)
+      pt-PT.lproj/
+        Localizable.strings (4,449 bytes)
+      hu-HU.lproj/
+        Localizable.strings (4,565 bytes)
+      id.lproj/
+        Localizable.strings (4,406 bytes)
+      tt.lproj/
+        Localizable.strings (5,115 bytes)
+      es.lproj/
+        Localizable.strings (4,505 bytes)
+      cs.lproj/
+        Localizable.strings (4,393 bytes)
+      vi.lproj/
+        Localizable.strings (4,569 bytes)
+      ru.lproj/
+        Localizable.strings (5,449 bytes)
+      fi.lproj/
+        Localizable.strings (4,416 bytes)
+      de.lproj/
+        Localizable.strings (4,530 bytes)
+      ga.lproj/
+        Localizable.strings (4,532 bytes)
+      mk.lproj/
+        Localizable.strings (5,393 bytes)
+      zh-Hant.lproj/
+        Localizable.strings (4,256 bytes)
+      fa.lproj/
+        Localizable.strings (5,118 bytes)
+      pt-BR.lproj/
+        Localizable.strings (4,497 bytes)
+      bn.lproj/
+        Localizable.strings (6,260 bytes)
+    nl.lproj/
+      InfoPlist.strings (537 bytes)
+      Localizable.strings (11,950 bytes)
+      Localizable.stringsdict (249 bytes)
+    km.lproj/
+      InfoPlist.strings (732 bytes)
+      Localizable.strings (18,065 bytes)
+      Localizable.stringsdict (235 bytes)
+      SecurityLevels.strings (4,058 bytes)
+    th.lproj/
+      InfoPlist.strings (612 bytes)
+      Localizable.strings (16,088 bytes)
+      Localizable.stringsdict (239 bytes)
+      SecurityLevels.strings (4,617 bytes)
+    ProgressHUD_ProgressHUD.bundle/
+      Info.plist (695 bytes)
+      PrivacyInfo.xcprivacy (373 bytes)
+    Frameworks/
+      OrbotKit.framework/
+        Info.plist (790 bytes)
+        OrbotKit (268,752 bytes)
+        _CodeSignature/
+          CodeResources (2,722 bytes)
+      IPtProxy.framework/
+        IPtProxy (35,504 bytes)
+        Info.plist (557 bytes)
+        _CodeSignature/
+          CodeResources (2,722 bytes)
+      SwiftSoup.framework/
+        Info.plist (793 bytes)
+        SwiftSoup (2,060,864 bytes)
+        _CodeSignature/
+          CodeResources (2,728 bytes)
+      Tor.framework/
+        Info.plist (783 bytes)
+        Tor (10,845,408 bytes)
+        _CodeSignature/
+          CodeResources (3,586 bytes)
+        GeoIP.bundle/
+          Info.plist (762 bytes)
+          geoip (9,775,942 bytes)
+          geoip6 (16,599,769 bytes)
+      MBProgressHUD.framework/
+        Info.plist (800 bytes)
+        MBProgressHUD (161,712 bytes)
+        _CodeSignature/
+          CodeResources (2,752 bytes)
+      DTFoundation.framework/
+        DTFoundation (172,464 bytes)
+        Info.plist (799 bytes)
+        _CodeSignature/
+          CodeResources (2,746 bytes)
+      FavIcon.framework/
+        FavIcon (279,280 bytes)
+        Info.plist (788 bytes)
+        _CodeSignature/
+          CodeResources (2,716 bytes)
+      SDCAlertView.framework/
+        Info.plist (799 bytes)
+        SDCAlertView (489,200 bytes)
+        _CodeSignature/
+          CodeResources (3,722 bytes)
+        SDCAlertView.bundle/
+          ActionCell.nib (4,044 bytes)
+          Info.plist (774 bytes)
+          TextFieldCell.nib (4,008 bytes)
+      TUSafariActivity.framework/
+        Info.plist (808 bytes)
+        TUSafariActivity (91,856 bytes)
+        TUSafariActivity.bundle/
+          Info.plist (783 bytes)
+          safari-7.png (1,337 bytes)
+          safari-7@2x.png (3,217 bytes)
+          safari-7@3x.png (4,928 bytes)
+          safari-7~iPad.png (1,941 bytes)
+          safari-7~iPad@2x.png (4,146 bytes)
+          safari.png (1,125 bytes)
+          safari@2x.png (2,515 bytes)
+          safari@3x.png (3,796 bytes)
+          safari~iPad.png (1,599 bytes)
+          safari~iPad@2x.png (3,264 bytes)
+          pt.lproj/
+            TUSafariActivity.strings (37 bytes)
+          it.lproj/
+            TUSafariActivity.strings (36 bytes)
+          fr.lproj/
+            TUSafariActivity.strings (40 bytes)
+          no.lproj/
+            TUSafariActivity.strings (36 bytes)
+          ja.lproj/
+            TUSafariActivity.strings (37 bytes)
+          zh_CN.lproj/
+            TUSafariActivity.strings (42 bytes)
+          pl.lproj/
+            TUSafariActivity.strings (38 bytes)
+          ko.lproj/
+            TUSafariActivity.strings (38 bytes)
+          nl.lproj/
+            TUSafariActivity.strings (36 bytes)
+          sv.lproj/
+            TUSafariActivity.strings (41 bytes)
+          en.lproj/
+            TUSafariActivity.strings (36 bytes)
+          sk.lproj/
+            TUSafariActivity.strings (39 bytes)
+          es.lproj/
+            TUSafariActivity.strings (37 bytes)
+          cs.lproj/
+            TUSafariActivity.strings (40 bytes)
+          vi.lproj/
+            TUSafariActivity.strings (40 bytes)
+          ru.lproj/
+            TUSafariActivity.strings (46 bytes)
+          fi.lproj/
+            TUSafariActivity.strings (36 bytes)
+          de.lproj/
+            TUSafariActivity.strings (39 bytes)
+          eu.lproj/
+            TUSafariActivity.strings (35 bytes)
+        _CodeSignature/
+          CodeResources (15,597 bytes)
+    hi.lproj/
+      InfoPlist.strings (607 bytes)
+      Localizable.strings (14,474 bytes)
+    el.lproj/
+      InfoPlist.strings (834 bytes)
+      Localizable.strings (16,335 bytes)
+      Localizable.stringsdict (105 bytes)
+    en.lproj/
+      InfoPlist.strings (376 bytes)
+      Localizable.strings (8,666 bytes)
+      Localizable.stringsdict (249 bytes)
+      SecurityLevels.strings (1,912 bytes)
+    is.lproj/
+      InfoPlist.strings (676 bytes)
+      Localizable.strings (23,881 bytes)
+      Localizable.stringsdict (262 bytes)
+      SecurityLevels.strings (4,870 bytes)
+    hr.lproj/
+      InfoPlist.strings (662 bytes)
+      Localizable.strings (19,321 bytes)
+      Localizable.stringsdict (287 bytes)
+      SecurityLevels.strings (4,461 bytes)
+    zh-Hans.lproj/
+      InfoPlist.strings (376 bytes)
+      Localizable.strings (14,720 bytes)
+      Localizable.stringsdict (255 bytes)
+      SecurityLevels.strings (2,899 bytes)
+    ps.lproj/
+      InfoPlist.strings (569 bytes)
+      Localizable.strings (14,583 bytes)
+      Localizable.stringsdict (262 bytes)
+    pt-PT.lproj/
+      InfoPlist.strings (675 bytes)
+      Localizable.strings (17,275 bytes)
+      Localizable.stringsdict (257 bytes)
+      SecurityLevels.strings (4,907 bytes)
+    hu-HU.lproj/
+      InfoPlist.strings (680 bytes)
+      Localizable.strings (19,180 bytes)
+      Localizable.stringsdict (242 bytes)
+      SecurityLevels.strings (4,695 bytes)
+    id.lproj/
+      InfoPlist.strings (470 bytes)
+      Localizable.strings (13,180 bytes)
+      Localizable.stringsdict (231 bytes)
+      SecurityLevels.strings (3,517 bytes)
+    tt.lproj/
+      InfoPlist.strings (682 bytes)
+      Localizable.strings (23,368 bytes)
+      Localizable.stringsdict (235 bytes)
+      SecurityLevels.strings (3,322 bytes)
+    es.lproj/
+      InfoPlist.strings (667 bytes)
+      Localizable.strings (23,806 bytes)
+      Localizable.stringsdict (265 bytes)
+      SecurityLevels.strings (4,804 bytes)
+    cs.lproj/
+      InfoPlist.strings (659 bytes)
+      Localizable.strings (16,530 bytes)
+      Localizable.stringsdict (252 bytes)
+      SecurityLevels.strings (3,803 bytes)
+    vi.lproj/
+      InfoPlist.strings (610 bytes)
+      Localizable.strings (16,803 bytes)
+      Localizable.stringsdict (231 bytes)
+      SecurityLevels.strings (3,760 bytes)
+    ru.lproj/
+      InfoPlist.strings (734 bytes)
+      Localizable.strings (26,419 bytes)
+      Localizable.stringsdict (252 bytes)
+      SecurityLevels.strings (5,273 bytes)
+    fi.lproj/
+      InfoPlist.strings (644 bytes)
+      Localizable.strings (21,548 bytes)
+      Localizable.stringsdict (252 bytes)
+      SecurityLevels.strings (4,515 bytes)
+    de.lproj/
+      InfoPlist.strings (670 bytes)
+      Localizable.strings (23,060 bytes)
+      Localizable.stringsdict (249 bytes)
+      SecurityLevels.strings (4,580 bytes)
+    ga.lproj/
+      InfoPlist.strings (698 bytes)
+      Localizable.strings (17,598 bytes)
+      Localizable.stringsdict (372 bytes)
+      SecurityLevels.strings (3,988 bytes)
+    mk.lproj/
+      InfoPlist.strings (768 bytes)
+      Localizable.strings (18,981 bytes)
+      Localizable.stringsdict (270 bytes)
+      SecurityLevels.strings (4,060 bytes)
+    zh-Hant.lproj/
+      InfoPlist.strings (394 bytes)
+      Localizable.strings (14,253 bytes)
+      Localizable.stringsdict (231 bytes)
+      SecurityLevels.strings (2,807 bytes)
+    fa.lproj/
+      InfoPlist.strings (656 bytes)
+      Localizable.strings (23,950 bytes)
+      Localizable.stringsdict (264 bytes)
+      SecurityLevels.strings (4,809 bytes)
+    pt-BR.lproj/
+      InfoPlist.strings (672 bytes)
+      Localizable.strings (23,895 bytes)
+      Localizable.stringsdict (257 bytes)
+      SecurityLevels.strings (4,879 bytes)
+    bn.lproj/
+      InfoPlist.strings (692 bytes)
+      Localizable.strings (19,454 bytes)

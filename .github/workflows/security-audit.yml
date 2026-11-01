@@ -1,0 +1,84 @@
+name: 🛡️ Security Audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'  # كل يوم اثنين 6AM
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Secret scanning (trufflehog-style regex sweep)
+        run: |
+          mkdir -p reports
+          echo "Scanning all bundled artifacts for leaked secrets..."
+          python3 - <<'PY'
+          import re, os, json
+          patterns = {
+              'private_key': r'-----BEGIN (RSA |EC |OPENSSH |PGP )?PRIVATE KEY-----',
+              'aws_key': r'AKIA[0-9A-Z]{16}',
+              'github_token': r'ghp_[A-Za-z0-9]{36}',
+              'api_key_generic': r'(?i)(api[_-]?key|secret)["\']?\s*[:=]\s*["\'][A-Za-z0-9\-_]{16,}["\']',
+              'password_hash': r'\$2[aby]\$[0-9]{2}\$[./A-Za-z0-9]{53}',
+              'tor_auth_cookie_ref': r'HashedControlPassword\s+\S+',
+              'bridge_fingerprint': r'\b[0-9A-F]{40}\b',
+          }
+          findings = []
+          for root, _, files in os.walk('.'):
+              if '.git' in root: continue
+              for f in files:
+                  p = os.path.join(root, f)
+                  try:
+                      content = open(p, 'r', encoding='utf-8', errors='ignore').read()
+                  except: continue
+                  for cat, rx in patterns.items():
+                      for m in re.finditer(rx, content):
+                          findings.append({'file': p, 'type': cat, 'match': m.group()[:60]})
+          json.dump(findings, open('reports/secret_scan.json', 'w'), indent=1)
+          print(f'Findings: {len(findings)}')
+          for f_ in findings[:20]: print(' ', f_)
+          PY
+
+      - name: Onion address & URL inventory
+        run: |
+          python3 - <<'PY'
+          import re, json
+          urls, onions = set(), set()
+          import os
+          for root, _, files in os.walk('.'):
+              if '.git' in root: continue
+              for f in files:
+                  try:
+                      c = open(os.path.join(root, f), encoding='utf-8', errors='ignore').read()
+                  except: continue
+                  urls |= set(re.findall(r'https?://[^\s"\'<>)]{5,}', c))
+                  onions |= set(re.findall(r'[a-z2-7]{16,56}\.onion', c))
+          json.dump({'urls': sorted(urls)[:500], 'onion_services': sorted(onions)},
+                    open('reports/network_inventory.json', 'w'), indent=1)
+          print(f'URLs: {len(urls)}, Onion services: {len(onions)}')
+          for o in sorted(onions): print('  ', o)
+          PY
+
+      - name: Upload security reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: security-audit
+          path: reports/
+
+      - name: Commit security reports
+        run: |
+          git config user.name "security-bot"
+          git config user.email "bot@noreply.github.com"
+          mkdir -p analysis/security
+          cp -r reports/* analysis/security/ 2>/dev/null || true
+          git add analysis/security
+          git diff --cached --quiet || git commit -m "🔒 CI: تقرير الفحص الأمني الدوري [skip ci]"
+          git push

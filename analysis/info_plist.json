@@ -1,0 +1,116 @@
+{
+ "UIRequiredDeviceCapabilities": [
+  "arm64"
+ ],
+ "CFBundleURLTypes": [
+  {
+   "CFBundleTypeRole": "Viewer",
+   "CFBundleURLName": "com.miketigas.onionbrowser",
+   "CFBundleURLSchemes": [
+    "onionhttp",
+    "onionhttps",
+    "http",
+    "https"
+   ]
+  },
+  {
+   "CFBundleTypeRole": "Editor",
+   "CFBundleURLSchemes": [
+    "onionbrowser"
+   ]
+  }
+ ],
+ "CFBundleInfoDictionaryVersion": "6.0",
+ "DTPlatformVersion": "27.1",
+ "NSUserActivityTypes": [
+  "com.miketigas.OnionBrowser.view"
+ ],
+ "CFBundleName": "OnionBrowser",
+ "DTSDKName": "iphoneos27.1",
+ "UIViewControllerBasedStatusBarAppearance": true,
+ "CFBundleIcons": {
+  "CFBundlePrimaryIcon": {
+   "CFBundleIconFiles": [
+    "AppIcon60x60"
+   ],
+   "CFBundleIconName": "AppIcon"
+  }
+ },
+ "CFBundleDisplayName": "Onion Browser",
+ "LSRequiresIPhoneOS": true,
+ "LSApplicationQueriesSchemes": [
+  "orbot"
+ ],
+ "DTSDKBuild": "24A94232",
+ "NSCameraUsageDescription": "Needed to read bridge addresses from displayed QR codes.",
+ "CFBundleShortVersionString": "3.4.4",
+ "CFBundleSupportedPlatforms": [
+  "iPhoneOS"
+ ],
+ "UISupportedInterfaceOrientations": [
+  "UIInterfaceOrientationPortrait",
+  "UIInterfaceOrientationLandscapeLeft",
+  "UIInterfaceOrientationLandscapeRight",
+  "UIInterfaceOrientationPortraitUpsideDown"
+ ],
+ "BuildMachineOSBuild": "25G241",
+ "DTPlatformBuild": "24A94232",
+ "CFBundlePackageType": "APPL",
+ "DTXcodeBuild": "27A9275",
+ "CFBundleDevelopmentRegion": "en",
+ "MinimumOSVersion": "15.0",
+ "CFBundleVersion": "168466.412098550",
+ "NSPhotoLibraryAddUsageDescription": "Needed to store the selected image to your photos.",
+ "UIFileSharingEnabled": true,
+ "UIStatusBarHidden": false,
+ "UIDeviceFamily": [
+  1,
+  2
+ ],
+ "UILaunchStoryboardName": "Launch Screen",
+ "CFBundleIdentifier": "com.miketigas.OnionBrowser",
+ "UIApplicationSceneManifest": {
+  "UIApplicationSupportsMultipleScenes": true,
+  "UISceneConfigurations": {
+   "UIWindowSceneSessionRoleApplication": [
+    {
+     "UISceneConfigurationName": "Default Configuration",
+     "UISceneDelegateClassName": "OnionBrowser.SceneDelegate"
+    }
+   ]
+  }
+ },
+ "DTXcode": "2710",
+ "UIApplicationShortcutItems": [
+  {
+   "UIApplicationShortcutItemTitle": "New Tab",
+   "UIApplicationShortcutItemType": "com.miketigas.OnionBrowser.OpenNewTab",
+   "UIApplicationShortcutItemIconType": "UIApplicationShortcutIconTypeAdd"
+  },
+  {
+   "UIApplicationShortcutItemIconType": "UIApplicationShortcutIconTypeProhibit",
+   "UIApplicationShortcutItemType": "com.miketigas.OnionBrowser.ClearData",
+   "UIApplicationShortcutItemTitle": "Clear Data",
+   "UIApplicationShortcutItemSubtitle": "Close tabs and clear data"
+  }
+ ],
+ "CFBundleExecutable": "OnionBrowser",
+ "NSAppTransportSecurity": {
+  "NSAllowsArbitraryLoads": true
+ },
+ "CFBundleIcons~ipad": {
+  "CFBundlePrimaryIcon": {
+   "CFBundleIconFiles": [
+    "AppIcon60x60",
+    "AppIcon76x76"
+   ],
+   "CFBundleIconName": "AppIcon"
+  }
+ },
+ "CFBundleSignature": "????",
+ "NSFaceIDUsageDescription": "Needed, if you want to unlock the app with Face ID.",
+ "DTPlatformName": "iphoneos",
+ "ITSAppUsesNonExemptEncryption": false,
+ "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+ "DTAppStoreToolsBuild": "27A9275"
+}

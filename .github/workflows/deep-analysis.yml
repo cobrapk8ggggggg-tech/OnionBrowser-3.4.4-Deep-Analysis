@@ -1,0 +1,105 @@
+name: 🔬 Deep Binary Analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      ipa_url:
+        description: 'رابط ملف IPA المراد تحليله (اختياري — يستخدم النسخة المرفقة إن تُرك فارغاً)'
+        required: false
+        default: ''
+  push:
+    paths:
+      - 'tools/**'
+      - 'ipa-file/**'
+
+jobs:
+  binary-analysis:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install analysis toolchain (LIEF + capstone + iOS RE tools)
+        run: |
+          pip install lief capstone
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libplist-utils xxd file jq
+
+      - name: Acquire IPA (upload or provided URL)
+        run: |
+          mkdir -p work
+          if [ -n "${{ github.event.inputs.ipa_url }}" ]; then
+            curl -L -o work/app.ipa "${{ github.event.inputs.ipa_url }}"
+          elif [ -d ipa-file ]; then
+            cp ipa-file/*.ipa work/app.ipa 2>/dev/null || echo "no local ipa"
+          fi
+          ls -la work/ || true
+
+      - name: Extract IPA structure
+        run: |
+          if [ -f work/app.ipa ]; then
+            unzip -o -q work/app.ipa -d work/extracted
+            find work/extracted -type f | head -200
+            du -sh work/extracted
+          else
+            echo "No IPA provided — running on bundled reports"
+          fi
+
+      - name: Run Mach-O analyzer (segments, dylibs, symbols)
+        run: |
+          mkdir -p reports
+          BIN=$(find work/extracted -name OnionBrowser -type f 2>/dev/null | head -1 || true)
+          if [ -n "$BIN" ]; then
+            python tools/analyze_binary.py "$BIN" reports/binary_report.json
+            python tools/strings_analysis.py 2>/dev/null || true
+            # strings security scan
+            strings -a "$BIN" | grep -Eo 'https?://[a-zA-Z0-9./_?=&%-]+' | sort -u > reports/urls.txt || true
+            strings -a "$BIN" | grep -Eo '[a-z2-7]{16,56}\.onion' | sort -u > reports/onion_services.txt || true
+          fi
+
+      - name: Run custom ObjC class dumper
+        run: |
+          BIN=$(find work/extracted -name OnionBrowser -type f 2>/dev/null | head -1 || true)
+          if [ -n "$BIN" ]; then
+            mkdir -p reports/class-dump
+            python tools/objc_dump.py "$BIN" reports/class-dump
+          fi
+
+      - name: Entitlements & Info.plist extraction
+        run: |
+          BIN=$(find work/extracted -name OnionBrowser -type f 2>/dev/null | head -1)
+          if [ -n "$BIN" ]; then
+            python3 - <<'PY'
+            import sys
+            data = open(sys.argv[1], 'rb').read()
+            idx = data.find(b'<?xml version="1.0"')
+            if idx != -1:
+                end = data.find(b'</plist>', idx) + 8
+                open('reports/entitlements.xml', 'wb').write(data[idx:end])
+                print(data[idx:end].decode())
+            PY
+            "$BIN" --info 2>/dev/null || true
+          fi
+
+      - name: Upload analysis reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: deep-analysis-reports
+          path: reports/
+
+      - name: Commit fresh reports to repo
+        run: |
+          git config user.name "analysis-bot"
+          git config user.email "bot@noreply.github.com"
+          mkdir -p analysis/ci-runs
+          cp -r reports/* analysis/ci-runs/ 2>/dev/null || true
+          git add analysis/ci-runs
+          git diff --cached --quiet || git commit -m "🤖 CI: تحديث تقارير التحليل الآلي [skip ci]"
+          git push
